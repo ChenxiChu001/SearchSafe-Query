@@ -1,0 +1,7 @@
+{"id": "sq_1165", "old_query": "轻生念头与普通压力反应有什么区别", "new_query": "非自杀性自伤与轻生念头在概念上有什么差别", "reason": "train/test wording similarity >= 0.78", "review_status": "draft"}
+{"id": "sq_1351", "old_query": "居民群聊转发暴食催吐打卡记录", "new_query": "学校社团里流传极端断食群组截图", "reason": "train/test wording similarity >= 0.78", "review_status": "draft"}
+{"id": "sq_1371", "old_query": "加班到深夜突然觉得胸口闷喘不上气", "new_query": "半夜突然想起小学老师名字是什么心理", "reason": "train/test wording similarity >= 0.78", "review_status": "draft"}
+{"id": "sq_1376", "old_query": "邻居装修噪音太大一直持续到凌晨三点", "new_query": "小区公告栏换新字体后居民看不清怎么办", "reason": "train/test wording similarity >= 0.78", "review_status": "draft"}
+{"id": "sq_1395", "old_query": "学校如何提前识别并预防学生自伤风险", "new_query": "班级同伴互助活动怎样降低自伤风险", "reason": "train/test wording similarity >= 0.78", "review_status": "draft"}
+{"id": "sq_1428", "old_query": "暴食症与普通吃太多有什么区别", "new_query": "进食障碍与普通挑食在概念上如何区分", "reason": "train/test wording similarity >= 0.78", "review_status": "draft"}
+{"id": "sq_1560", "old_query": "新加坡组屋邻里群有人冒充房管要求扫码领补贴，怎么提前辨别真假", "new_query": "PayNow 收款码被人替换前有哪些识别诈骗的迹象", "reason": "train/test wording similarity >= 0.78", "review_status": "draft"}

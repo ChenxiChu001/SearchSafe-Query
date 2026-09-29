@@ -1,0 +1,12 @@
+# Local models and adapters
+.venv/
+adapters/
+models/
+data/external/
+
+# Generated caches and local files
+__pycache__/
+*.pyc
+.DS_Store
+*.docx
+*.rtfd/

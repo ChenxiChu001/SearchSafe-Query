@@ -1,0 +1,183 @@
+{
+  "source": "data/canonical/training_candidates_v3_draft.jsonl",
+  "sha256": "66fe22afb38d086af5865614e0cae2418c08412d61084e19114f594ed95ff12f",
+  "rows": 1000,
+  "groups": 999,
+  "schema_errors": 0,
+  "duplicate_normalized_query_strings": 0,
+  "review_status": {
+    "approved": 124,
+    "draft": 876
+  },
+  "origin_version": {
+    "v0": 24,
+    "v2": 100,
+    "v2.1": 40,
+    "v3": 836
+  },
+  "topic": {
+    "NONE": 120,
+    "SELF_HARM": 200,
+    "SCAM": 200,
+    "EATING_DISORDER_RISK": 200,
+    "VIOLENCE": 200,
+    "POLITICAL_SENSITIVE": 80
+  },
+  "intent": {
+    "GENERAL_INFO": 310,
+    "SUPPORT_SEEKING": 200,
+    "PREVENTION": 120,
+    "HARMFUL_INSTRUCTION": 180,
+    "AMBIGUOUS": 160,
+    "PRIVATE_INFO_REQUEST": 30
+  },
+  "topic_locale": {
+    "EATING_DISORDER_RISK": {
+      "SG": 60,
+      "CN": 140
+    },
+    "NONE": {
+      "SG": 36,
+      "CN": 84
+    },
+    "POLITICAL_SENSITIVE": {
+      "CN": 56,
+      "SG": 24
+    },
+    "SCAM": {
+      "SG": 60,
+      "CN": 140
+    },
+    "SELF_HARM": {
+      "SG": 60,
+      "CN": 140
+    },
+    "VIOLENCE": {
+      "SG": 60,
+      "CN": 140
+    }
+  },
+  "action_patterns": {
+    "100000": 150,
+    "111010": 340,
+    "111000": 280,
+    "111110": 180,
+    "000001": 30,
+    "110010": 20
+  },
+  "splits": {
+    "train": {
+      "rows": 700,
+      "groups": 699,
+      "topic": {
+        "NONE": 84,
+        "SELF_HARM": 140,
+        "SCAM": 141,
+        "EATING_DISORDER_RISK": 140,
+        "VIOLENCE": 140,
+        "POLITICAL_SENSITIVE": 55
+      },
+      "intent": {
+        "GENERAL_INFO": 220,
+        "SUPPORT_SEEKING": 139,
+        "PREVENTION": 84,
+        "HARMFUL_INSTRUCTION": 124,
+        "AMBIGUOUS": 116,
+        "PRIVATE_INFO_REQUEST": 17
+      },
+      "locale": {
+        "SG": 210,
+        "CN": 490
+      },
+      "review_status": {
+        "approved": 124,
+        "draft": 576
+      },
+      "positive_actions": {
+        "allow": 683,
+        "filter": 575,
+        "downrank": 561,
+        "warning": 124,
+        "redirect": 379,
+        "block": 17
+      }
+    },
+    "dev": {
+      "rows": 100,
+      "groups": 100,
+      "topic": {
+        "EATING_DISORDER_RISK": 21,
+        "NONE": 12,
+        "POLITICAL_SENSITIVE": 5,
+        "SCAM": 20,
+        "SELF_HARM": 21,
+        "VIOLENCE": 21
+      },
+      "intent": {
+        "AMBIGUOUS": 16,
+        "GENERAL_INFO": 29,
+        "HARMFUL_INSTRUCTION": 20,
+        "PREVENTION": 12,
+        "SUPPORT_SEEKING": 20,
+        "PRIVATE_INFO_REQUEST": 3
+      },
+      "locale": {
+        "CN": 71,
+        "SG": 29
+      },
+      "review_status": {
+        "draft": 100
+      },
+      "positive_actions": {
+        "allow": 97,
+        "filter": 84,
+        "downrank": 83,
+        "warning": 20,
+        "redirect": 56,
+        "block": 3
+      }
+    },
+    "test": {
+      "rows": 200,
+      "groups": 200,
+      "topic": {
+        "EATING_DISORDER_RISK": 39,
+        "NONE": 24,
+        "POLITICAL_SENSITIVE": 20,
+        "SCAM": 39,
+        "SELF_HARM": 39,
+        "VIOLENCE": 39
+      },
+      "intent": {
+        "AMBIGUOUS": 28,
+        "GENERAL_INFO": 61,
+        "HARMFUL_INSTRUCTION": 36,
+        "PREVENTION": 24,
+        "SUPPORT_SEEKING": 41,
+        "PRIVATE_INFO_REQUEST": 10
+      },
+      "locale": {
+        "CN": 139,
+        "SG": 61
+      },
+      "review_status": {
+        "draft": 200
+      },
+      "positive_actions": {
+        "allow": 190,
+        "filter": 161,
+        "downrank": 156,
+        "warning": 36,
+        "redirect": 105,
+        "block": 10
+      }
+    }
+  },
+  "cross_split_character_similarity_threshold": 0.82,
+  "cross_split_near_edges": [],
+  "limits": [
+    "character similarity misses semantic paraphrases",
+    "draft labels have not been human audited",
+    "all new test and train examples were generated with the same local base model"
+  ]
+}

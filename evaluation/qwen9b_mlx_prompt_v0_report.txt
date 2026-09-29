@@ -1,0 +1,25 @@
+DRAFT LABEL WARNING: review statuses {'draft': 48}; scores below are demonstration only.
+N=48; semantic groups=24
+
+topic: 48/48 correct; macro F1 over supported labels=1.000
+  EATING_DISORDER_RISK: P=1.000 R=1.000 F1=1.000 (support=10, TP=10, FP=0, FN=0)
+  NONE: P=1.000 R=1.000 F1=1.000 (support=8, TP=8, FP=0, FN=0)
+  SCAM: P=1.000 R=1.000 F1=1.000 (support=10, TP=10, FP=0, FN=0)
+  SELF_HARM: P=1.000 R=1.000 F1=1.000 (support=10, TP=10, FP=0, FN=0)
+  VIOLENCE: P=1.000 R=1.000 F1=1.000 (support=10, TP=10, FP=0, FN=0)
+
+intent: 42/48 correct; macro F1 over supported labels=0.834
+  AMBIGUOUS: P=1.000 R=0.250 F1=0.400 (support=8, TP=2, FP=0, FN=6)
+  GENERAL_INFO: P=0.800 R=1.000 F1=0.889 (support=16, TP=16, FP=4, FN=0)
+  HARMFUL_INSTRUCTION: P=0.889 R=1.000 F1=0.941 (support=8, TP=8, FP=1, FN=0)
+  PREVENTION: P=1.000 R=1.000 F1=1.000 (support=8, TP=8, FP=0, FN=0)
+  SUPPORT_SEEKING: P=0.889 R=1.000 F1=0.941 (support=8, TP=8, FP=1, FN=0)
+
+triage: 43/48 correct; macro F1 over supported labels=0.893
+  ALLOW: P=0.857 R=1.000 F1=0.923 (support=24, TP=24, FP=4, FN=0)
+  REVIEW: P=1.000 R=0.688 F1=0.815 (support=16, TP=11, FP=0, FN=5)
+  SUPPORT: P=0.889 R=1.000 F1=0.941 (support=8, TP=8, FP=1, FN=0)
+
+Support-seeking routed to REVIEW: 0/8 []
+Harmful-instruction missed by REVIEW: 0/8 []
+Triage confusion counts: {'ALLOW': {'ALLOW': 24}, 'SUPPORT': {'SUPPORT': 8}, 'REVIEW': {'REVIEW': 11, 'SUPPORT': 1, 'ALLOW': 4}}

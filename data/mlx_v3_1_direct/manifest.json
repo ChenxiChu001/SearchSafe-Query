@@ -1,0 +1,33 @@
+{
+  "task": "direct",
+  "split_dir": "data/splits/v3_1_seed42",
+  "prompt": "prompts/query_intervention_v3_1.txt",
+  "prompt_sha256": "e85d70777f8aeff293cb2564c9824e96a519c029f4a4be769f4de2d216f14428",
+  "format": "mlx-lm chat",
+  "mask_prompt": true,
+  "splits": {
+    "train": {
+      "rows": 1000,
+      "statuses": {
+        "approved": 672,
+        "draft": 328
+      },
+      "sha256": "5d2d438f368cc08e877fe9db6ecb36d18c608f224d906af5d5352e71787645d8"
+    },
+    "dev": {
+      "rows": 100,
+      "statuses": {
+        "approved": 93,
+        "draft": 7
+      },
+      "sha256": "9f169f29054fb9045e0cd348d66a49a75bde25ff1578bc9c90968efdd0c4b098"
+    },
+    "test": {
+      "rows": 100,
+      "statuses": {
+        "draft": 100
+      },
+      "sha256": "1daa36657d6c45f59faff834c84c3f839ec99908bb197a673f63bf870fa77ee0"
+    }
+  }
+}

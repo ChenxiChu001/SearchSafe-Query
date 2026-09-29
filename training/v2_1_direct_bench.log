@@ -1,0 +1,77 @@
+Loading pretrained model
+Loading datasets
+Training
+Trainable parameters: 0.030% (2.705M/8953.802M)
+Starting training..., iters: 10
+
+Calculating loss...:   0%|          | 0/16 [00:00<?, ?it/s]
+Calculating loss...:   6%|▋         | 1/16 [00:02<00:38,  2.58s/it]
+Calculating loss...:  12%|█▎        | 2/16 [00:05<00:36,  2.62s/it]
+Calculating loss...:  19%|█▉        | 3/16 [00:07<00:34,  2.64s/it]
+Calculating loss...:  25%|██▌       | 4/16 [00:10<00:31,  2.60s/it]
+Calculating loss...:  31%|███▏      | 5/16 [00:13<00:28,  2.62s/it]
+Calculating loss...:  38%|███▊      | 6/16 [00:15<00:26,  2.64s/it]
+Calculating loss...:  44%|████▍     | 7/16 [00:18<00:23,  2.64s/it]
+Calculating loss...:  50%|█████     | 8/16 [00:20<00:20,  2.61s/it]
+Calculating loss...:  56%|█████▋    | 9/16 [00:23<00:18,  2.63s/it]
+Calculating loss...:  62%|██████▎   | 10/16 [00:26<00:15,  2.64s/it]
+Calculating loss...:  69%|██████▉   | 11/16 [00:28<00:13,  2.65s/it]
+Calculating loss...:  75%|███████▌  | 12/16 [00:31<00:10,  2.65s/it]
+Calculating loss...:  81%|████████▏ | 13/16 [00:34<00:07,  2.66s/it]
+Calculating loss...:  88%|████████▊ | 14/16 [00:36<00:05,  2.67s/it]
+Calculating loss...:  94%|█████████▍| 15/16 [00:39<00:02,  2.64s/it]
+Calculating loss...: 100%|██████████| 16/16 [00:42<00:00,  2.65s/it]
+Calculating loss...: 100%|██████████| 16/16 [00:42<00:00,  2.64s/it]
+Iter 1: Val loss 0.645, Val took 42.246s
+Iter 1: Train loss 0.597, Learning Rate 5.000e-05, It/sec 0.069, Tokens/sec 3.458, Trained Tokens 50, Peak mem 18.515 GB
+Iter 2: Train loss 0.359, Learning Rate 5.000e-05, It/sec 0.075, Tokens/sec 3.291, Trained Tokens 94, Peak mem 18.518 GB
+Iter 3: Train loss 0.113, Learning Rate 5.000e-05, It/sec 0.153, Tokens/sec 7.203, Trained Tokens 141, Peak mem 18.550 GB
+Iter 4: Train loss 0.002, Learning Rate 5.000e-05, It/sec 0.155, Tokens/sec 6.997, Trained Tokens 186, Peak mem 18.550 GB
+
+Calculating loss...:   0%|          | 0/16 [00:00<?, ?it/s]
+Calculating loss...:   6%|▋         | 1/16 [00:02<00:40,  2.73s/it]
+Calculating loss...:  12%|█▎        | 2/16 [00:05<00:37,  2.67s/it]
+Calculating loss...:  19%|█▉        | 3/16 [00:08<00:34,  2.69s/it]
+Calculating loss...:  25%|██▌       | 4/16 [00:10<00:32,  2.69s/it]
+Calculating loss...:  31%|███▏      | 5/16 [00:13<00:29,  2.69s/it]
+Calculating loss...:  38%|███▊      | 6/16 [00:16<00:27,  2.71s/it]
+Calculating loss...:  44%|████▍     | 7/16 [00:18<00:24,  2.71s/it]
+Calculating loss...:  50%|█████     | 8/16 [00:21<00:21,  2.71s/it]
+Calculating loss...:  56%|█████▋    | 9/16 [00:24<00:18,  2.70s/it]
+Calculating loss...:  62%|██████▎   | 10/16 [00:26<00:16,  2.70s/it]
+Calculating loss...:  69%|██████▉   | 11/16 [00:29<00:13,  2.69s/it]
+Calculating loss...:  75%|███████▌  | 12/16 [00:32<00:10,  2.68s/it]
+Calculating loss...:  81%|████████▏ | 13/16 [00:35<00:08,  2.69s/it]
+Calculating loss...:  88%|████████▊ | 14/16 [00:37<00:05,  2.68s/it]
+Calculating loss...:  94%|█████████▍| 15/16 [00:40<00:02,  2.64s/it]
+Calculating loss...: 100%|██████████| 16/16 [00:42<00:00,  2.65s/it]
+Calculating loss...: 100%|██████████| 16/16 [00:42<00:00,  2.68s/it]
+Iter 5: Val loss 0.053, Val took 42.916s
+Iter 5: Train loss 0.021, Learning Rate 5.000e-05, It/sec 0.155, Tokens/sec 7.112, Trained Tokens 232, Peak mem 18.550 GB
+Iter 6: Train loss 0.050, Learning Rate 5.000e-05, It/sec 0.156, Tokens/sec 7.499, Trained Tokens 280, Peak mem 18.588 GB
+Iter 7: Train loss 0.237, Learning Rate 5.000e-05, It/sec 0.157, Tokens/sec 7.047, Trained Tokens 325, Peak mem 18.588 GB
+Iter 8: Train loss 0.004, Learning Rate 5.000e-05, It/sec 0.156, Tokens/sec 7.033, Trained Tokens 370, Peak mem 18.588 GB
+Iter 9: Train loss 0.002, Learning Rate 5.000e-05, It/sec 0.157, Tokens/sec 7.043, Trained Tokens 415, Peak mem 18.588 GB
+
+Calculating loss...:   0%|          | 0/16 [00:00<?, ?it/s]
+Calculating loss...:   6%|▋         | 1/16 [00:02<00:40,  2.67s/it]
+Calculating loss...:  12%|█▎        | 2/16 [00:05<00:37,  2.66s/it]
+Calculating loss...:  19%|█▉        | 3/16 [00:07<00:34,  2.66s/it]
+Calculating loss...:  25%|██▌       | 4/16 [00:10<00:31,  2.66s/it]
+Calculating loss...:  31%|███▏      | 5/16 [00:13<00:29,  2.66s/it]
+Calculating loss...:  38%|███▊      | 6/16 [00:15<00:26,  2.65s/it]
+Calculating loss...:  44%|████▍     | 7/16 [00:18<00:24,  2.67s/it]
+Calculating loss...:  50%|█████     | 8/16 [00:21<00:21,  2.68s/it]
+Calculating loss...:  56%|█████▋    | 9/16 [00:24<00:18,  2.68s/it]
+Calculating loss...:  62%|██████▎   | 10/16 [00:26<00:16,  2.68s/it]
+Calculating loss...:  69%|██████▉   | 11/16 [00:29<00:13,  2.68s/it]
+Calculating loss...:  75%|███████▌  | 12/16 [00:31<00:10,  2.63s/it]
+Calculating loss...:  81%|████████▏ | 13/16 [00:34<00:07,  2.60s/it]
+Calculating loss...:  88%|████████▊ | 14/16 [00:37<00:05,  2.62s/it]
+Calculating loss...:  94%|█████████▍| 15/16 [00:39<00:02,  2.63s/it]
+Calculating loss...: 100%|██████████| 16/16 [00:42<00:00,  2.64s/it]
+Calculating loss...: 100%|██████████| 16/16 [00:42<00:00,  2.65s/it]
+Iter 10: Val loss 0.049, Val took 42.420s
+Iter 10: Train loss 0.010, Learning Rate 5.000e-05, It/sec 0.073, Tokens/sec 3.071, Trained Tokens 457, Peak mem 18.588 GB
+Iter 10: Saved adapter weights to adapters/v2_1_direct_bench/adapters.safetensors and adapters/v2_1_direct_bench/0000010_adapters.safetensors.
+Saved final weights to adapters/v2_1_direct_bench/adapters.safetensors.

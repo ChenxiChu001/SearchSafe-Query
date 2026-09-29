@@ -1,0 +1,10 @@
+Loading pretrained model
+Loading datasets
+Warning: Validation set not found or empty. Training will proceed without validation.
+Training
+Trainable parameters: 0.030% (2.705M/8953.802M)
+Starting training..., iters: 2
+Iter 1: Train loss 1.078, Learning Rate 1.000e-05, It/sec 0.048, Tokens/sec 1.241, Trained Tokens 26, Peak mem 10.350 GB
+Iter 2: Train loss 1.142, Learning Rate 1.000e-05, It/sec 0.154, Tokens/sec 3.995, Trained Tokens 52, Peak mem 10.385 GB
+Iter 2: Saved adapter weights to adapters/smoke_qwen9b/adapters.safetensors and adapters/smoke_qwen9b/0000002_adapters.safetensors.
+Saved final weights to adapters/smoke_qwen9b/adapters.safetensors.

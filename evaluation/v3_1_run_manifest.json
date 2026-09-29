@@ -1,0 +1,14 @@
+{
+  "base_direct": {
+    "predictions": "evaluation/v3_1_base_direct_predictions.jsonl",
+    "raw": "evaluation/v3_1_base_direct_raw.jsonl"
+  },
+  "v3_direct": {
+    "predictions": "evaluation/v3_1_v3_direct_predictions.jsonl",
+    "raw": "evaluation/v3_1_v3_direct_raw.jsonl"
+  },
+  "v31_direct": {
+    "predictions": "evaluation/v3_1_v31_direct_predictions.jsonl",
+    "raw": "evaluation/v3_1_v31_direct_raw.jsonl"
+  }
+}

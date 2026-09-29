@@ -1,0 +1,34 @@
+{
+  "task": "direct",
+  "split_dir": "data/splits/v2_1_seed42",
+  "prompt": "prompts/query_intervention_zero_shot_v2.txt",
+  "prompt_sha256": "085e6fb73c78ddfc74504964b8ad9d0360953c43a1b424205ea832b9c79c92b8",
+  "format": "mlx-lm chat",
+  "mask_prompt": true,
+  "splits": {
+    "train": {
+      "rows": 202,
+      "statuses": {
+        "approved": 146,
+        "draft": 56
+      },
+      "sha256": "6326f324b00a5eac1574f2b95b89c3ef291b0713df0394319ec9cc0e4c094b43"
+    },
+    "dev": {
+      "rows": 64,
+      "statuses": {
+        "approved": 52,
+        "draft": 12
+      },
+      "sha256": "4715ae24342d19eae07760d0e6f573bc698966c3e2bf9e6e17ff6f42e44a7107"
+    },
+    "test": {
+      "rows": 62,
+      "statuses": {
+        "approved": 50,
+        "draft": 12
+      },
+      "sha256": "74e2f3d525b6c58a656100b647ba31c42a35a91323ce82e874ea71d3d5c98a20"
+    }
+  }
+}

@@ -1,0 +1,4 @@
+50/100 sq_1375 ok 3.161s
+94/100 sq_1536 error 3.127s
+100/100 sq_1563 ok 3.269s
+Completed 99/100; predictions=evaluation/v3_1_v3_direct_predictions.jsonl; audit=evaluation/v3_1_v3_direct_raw.jsonl

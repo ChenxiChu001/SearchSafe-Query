@@ -1,0 +1,1964 @@
+{
+  "sources": {
+    "corpus": "data/canonical/training_candidates_v2_1.jsonl",
+    "manifest": "data/splits/v2_1_seed42/manifest.json",
+    "comparison": "evaluation/training_comparison_v2_1.json"
+  },
+  "corpus": {
+    "rows": 328,
+    "groups": 163,
+    "language_rows": {
+      "en": 164,
+      "zh": 164
+    },
+    "topic_rows": {
+      "NONE": 46,
+      "SELF_HARM": 48,
+      "SCAM": 48,
+      "EATING_DISORDER_RISK": 48,
+      "VIOLENCE": 48,
+      "POLITICAL_SENSITIVE": 90
+    },
+    "block_rows": 22,
+    "block_groups": 11,
+    "block_review_status": {
+      "approved": 2,
+      "draft": 20
+    },
+    "action_patterns": 6
+  },
+  "splits": {
+    "train": {
+      "rows": 202,
+      "groups": 101,
+      "language_rows": {
+        "en": 101,
+        "zh": 101
+      },
+      "block_rows": 14,
+      "block_groups": 7
+    },
+    "dev": {
+      "rows": 64,
+      "groups": 31,
+      "language_rows": {
+        "en": 32,
+        "zh": 32
+      },
+      "block_rows": 4,
+      "block_groups": 2
+    },
+    "test": {
+      "rows": 62,
+      "groups": 31,
+      "language_rows": {
+        "en": 31,
+        "zh": 31
+      },
+      "block_rows": 4,
+      "block_groups": 2
+    }
+  },
+  "test_bilingual_pairs": 31,
+  "runs": {
+    "base_labels": {
+      "overall": {
+        "n": 62,
+        "groups": 31,
+        "topic_correct": 60,
+        "intent_correct": 52,
+        "action_exact": 54
+      },
+      "action_bits": {
+        "allow": {
+          "support": 58,
+          "tp": 57,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.9827586206896551,
+          "f1": 0.9913043478260869,
+          "false_positive_ids": [],
+          "false_negative_ids": [
+            "sq_0155"
+          ]
+        },
+        "filter": {
+          "support": 46,
+          "tp": 45,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.9782608695652174,
+          "f1": 0.989010989010989,
+          "false_positive_ids": [],
+          "false_negative_ids": [
+            "sq_0155"
+          ]
+        },
+        "downrank": {
+          "support": 42,
+          "tp": 41,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.9761904761904762,
+          "f1": 0.9879518072289156,
+          "false_positive_ids": [],
+          "false_negative_ids": [
+            "sq_0155"
+          ]
+        },
+        "warning": {
+          "support": 8,
+          "tp": 7,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.875,
+          "f1": 0.9333333333333333,
+          "false_positive_ids": [],
+          "false_negative_ids": [
+            "sq_0155"
+          ]
+        },
+        "redirect": {
+          "support": 28,
+          "tp": 20,
+          "fp": 0,
+          "fn": 8,
+          "precision": 1.0,
+          "recall": 0.7142857142857143,
+          "f1": 0.8333333333333333,
+          "false_positive_ids": [],
+          "false_negative_ids": [
+            "sq_0124",
+            "sq_0155",
+            "sq_0159",
+            "sq_0160",
+            "sq_0197",
+            "sq_0198",
+            "sq_0237",
+            "sq_0238"
+          ]
+        },
+        "block": {
+          "support": 4,
+          "tp": 4,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "false_positive_ids": [],
+          "false_negative_ids": []
+        }
+      },
+      "languages": {
+        "en": {
+          "n": 31,
+          "groups": 31,
+          "topic_correct": 29,
+          "intent_correct": 26,
+          "action_exact": 27,
+          "action_bits": {
+            "allow": {
+              "support": 29,
+              "tp": 28,
+              "fp": 0,
+              "fn": 1,
+              "precision": 1.0,
+              "recall": 0.9655172413793104,
+              "f1": 0.9824561403508771
+            },
+            "filter": {
+              "support": 23,
+              "tp": 22,
+              "fp": 0,
+              "fn": 1,
+              "precision": 1.0,
+              "recall": 0.9565217391304348,
+              "f1": 0.9777777777777777
+            },
+            "downrank": {
+              "support": 21,
+              "tp": 20,
+              "fp": 0,
+              "fn": 1,
+              "precision": 1.0,
+              "recall": 0.9523809523809523,
+              "f1": 0.975609756097561
+            },
+            "warning": {
+              "support": 4,
+              "tp": 3,
+              "fp": 0,
+              "fn": 1,
+              "precision": 1.0,
+              "recall": 0.75,
+              "f1": 0.8571428571428571
+            },
+            "redirect": {
+              "support": 14,
+              "tp": 10,
+              "fp": 0,
+              "fn": 4,
+              "precision": 1.0,
+              "recall": 0.7142857142857143,
+              "f1": 0.8333333333333333
+            },
+            "block": {
+              "support": 2,
+              "tp": 2,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            }
+          },
+          "topics": {
+            "EATING_DISORDER_RISK": {
+              "support": 5,
+              "tp": 4,
+              "fp": 0,
+              "fn": 1,
+              "precision": 1.0,
+              "recall": 0.8,
+              "f1": 0.888888888888889
+            },
+            "NONE": {
+              "support": 3,
+              "tp": 3,
+              "fp": 2,
+              "fn": 0,
+              "precision": 0.6,
+              "recall": 1.0,
+              "f1": 0.7499999999999999
+            },
+            "POLITICAL_SENSITIVE": {
+              "support": 7,
+              "tp": 6,
+              "fp": 0,
+              "fn": 1,
+              "precision": 1.0,
+              "recall": 0.8571428571428571,
+              "f1": 0.923076923076923
+            },
+            "SCAM": {
+              "support": 5,
+              "tp": 5,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "SELF_HARM": {
+              "support": 6,
+              "tp": 6,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "VIOLENCE": {
+              "support": 5,
+              "tp": 5,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            }
+          }
+        },
+        "zh": {
+          "n": 31,
+          "groups": 31,
+          "topic_correct": 31,
+          "intent_correct": 26,
+          "action_exact": 27,
+          "action_bits": {
+            "allow": {
+              "support": 29,
+              "tp": 29,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "filter": {
+              "support": 23,
+              "tp": 23,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "downrank": {
+              "support": 21,
+              "tp": 21,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "warning": {
+              "support": 4,
+              "tp": 4,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "redirect": {
+              "support": 14,
+              "tp": 10,
+              "fp": 0,
+              "fn": 4,
+              "precision": 1.0,
+              "recall": 0.7142857142857143,
+              "f1": 0.8333333333333333
+            },
+            "block": {
+              "support": 2,
+              "tp": 2,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            }
+          },
+          "topics": {
+            "EATING_DISORDER_RISK": {
+              "support": 5,
+              "tp": 5,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "NONE": {
+              "support": 3,
+              "tp": 3,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "POLITICAL_SENSITIVE": {
+              "support": 7,
+              "tp": 7,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "SCAM": {
+              "support": 5,
+              "tp": 5,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "SELF_HARM": {
+              "support": 6,
+              "tp": 6,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "VIOLENCE": {
+              "support": 5,
+              "tp": 5,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            }
+          }
+        }
+      },
+      "topics": {
+        "EATING_DISORDER_RISK": {
+          "n": 10,
+          "groups": 5,
+          "topic_correct": 9,
+          "intent_correct": 8,
+          "action_exact": 7,
+          "support": 10,
+          "tp": 9,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.9,
+          "f1": 0.9473684210526316
+        },
+        "NONE": {
+          "n": 6,
+          "groups": 3,
+          "topic_correct": 6,
+          "intent_correct": 6,
+          "action_exact": 6,
+          "support": 6,
+          "tp": 6,
+          "fp": 2,
+          "fn": 0,
+          "precision": 0.75,
+          "recall": 1.0,
+          "f1": 0.8571428571428571
+        },
+        "POLITICAL_SENSITIVE": {
+          "n": 14,
+          "groups": 7,
+          "topic_correct": 13,
+          "intent_correct": 14,
+          "action_exact": 14,
+          "support": 14,
+          "tp": 13,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.9285714285714286,
+          "f1": 0.962962962962963
+        },
+        "SCAM": {
+          "n": 10,
+          "groups": 5,
+          "topic_correct": 10,
+          "intent_correct": 6,
+          "action_exact": 8,
+          "support": 10,
+          "tp": 10,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "SELF_HARM": {
+          "n": 12,
+          "groups": 6,
+          "topic_correct": 12,
+          "intent_correct": 10,
+          "action_exact": 11,
+          "support": 12,
+          "tp": 12,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "VIOLENCE": {
+          "n": 10,
+          "groups": 5,
+          "topic_correct": 10,
+          "intent_correct": 8,
+          "action_exact": 8,
+          "support": 10,
+          "tp": 10,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "bilingual_output_disagreement": [
+        {
+          "semantic_group_id": "g062",
+          "en_id": "sq_0123",
+          "zh_id": "sq_0124"
+        },
+        {
+          "semantic_group_id": "g078",
+          "en_id": "sq_0155",
+          "zh_id": "sq_0156"
+        },
+        {
+          "semantic_group_id": "g080",
+          "en_id": "sq_0159",
+          "zh_id": "sq_0160"
+        },
+        {
+          "semantic_group_id": "g119",
+          "en_id": "sq_0237",
+          "zh_id": "sq_0238"
+        },
+        {
+          "semantic_group_id": "g150",
+          "en_id": "sq_0301",
+          "zh_id": "sq_0302"
+        }
+      ]
+    },
+    "tuned_labels": {
+      "overall": {
+        "n": 62,
+        "groups": 31,
+        "topic_correct": 59,
+        "intent_correct": 56,
+        "action_exact": 56
+      },
+      "action_bits": {
+        "allow": {
+          "support": 58,
+          "tp": 55,
+          "fp": 0,
+          "fn": 3,
+          "precision": 1.0,
+          "recall": 0.9482758620689655,
+          "f1": 0.9734513274336283,
+          "false_positive_ids": [],
+          "false_negative_ids": [
+            "sq_0107",
+            "sq_0108",
+            "sq_0155"
+          ]
+        },
+        "filter": {
+          "support": 46,
+          "tp": 43,
+          "fp": 0,
+          "fn": 3,
+          "precision": 1.0,
+          "recall": 0.9347826086956522,
+          "f1": 0.9662921348314606,
+          "false_positive_ids": [],
+          "false_negative_ids": [
+            "sq_0107",
+            "sq_0108",
+            "sq_0155"
+          ]
+        },
+        "downrank": {
+          "support": 42,
+          "tp": 39,
+          "fp": 0,
+          "fn": 3,
+          "precision": 1.0,
+          "recall": 0.9285714285714286,
+          "f1": 0.962962962962963,
+          "false_positive_ids": [],
+          "false_negative_ids": [
+            "sq_0107",
+            "sq_0108",
+            "sq_0155"
+          ]
+        },
+        "warning": {
+          "support": 8,
+          "tp": 7,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.875,
+          "f1": 0.9333333333333333,
+          "false_positive_ids": [],
+          "false_negative_ids": [
+            "sq_0155"
+          ]
+        },
+        "redirect": {
+          "support": 28,
+          "tp": 22,
+          "fp": 0,
+          "fn": 6,
+          "precision": 1.0,
+          "recall": 0.7857142857142857,
+          "f1": 0.88,
+          "false_positive_ids": [],
+          "false_negative_ids": [
+            "sq_0107",
+            "sq_0108",
+            "sq_0155",
+            "sq_0185",
+            "sq_0237",
+            "sq_0238"
+          ]
+        },
+        "block": {
+          "support": 4,
+          "tp": 4,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "false_positive_ids": [],
+          "false_negative_ids": []
+        }
+      },
+      "languages": {
+        "en": {
+          "n": 31,
+          "groups": 31,
+          "topic_correct": 29,
+          "intent_correct": 27,
+          "action_exact": 27,
+          "action_bits": {
+            "allow": {
+              "support": 29,
+              "tp": 27,
+              "fp": 0,
+              "fn": 2,
+              "precision": 1.0,
+              "recall": 0.9310344827586207,
+              "f1": 0.9642857142857143
+            },
+            "filter": {
+              "support": 23,
+              "tp": 21,
+              "fp": 0,
+              "fn": 2,
+              "precision": 1.0,
+              "recall": 0.9130434782608695,
+              "f1": 0.9545454545454545
+            },
+            "downrank": {
+              "support": 21,
+              "tp": 19,
+              "fp": 0,
+              "fn": 2,
+              "precision": 1.0,
+              "recall": 0.9047619047619048,
+              "f1": 0.9500000000000001
+            },
+            "warning": {
+              "support": 4,
+              "tp": 3,
+              "fp": 0,
+              "fn": 1,
+              "precision": 1.0,
+              "recall": 0.75,
+              "f1": 0.8571428571428571
+            },
+            "redirect": {
+              "support": 14,
+              "tp": 10,
+              "fp": 0,
+              "fn": 4,
+              "precision": 1.0,
+              "recall": 0.7142857142857143,
+              "f1": 0.8333333333333333
+            },
+            "block": {
+              "support": 2,
+              "tp": 2,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            }
+          },
+          "topics": {
+            "EATING_DISORDER_RISK": {
+              "support": 5,
+              "tp": 4,
+              "fp": 0,
+              "fn": 1,
+              "precision": 1.0,
+              "recall": 0.8,
+              "f1": 0.888888888888889
+            },
+            "NONE": {
+              "support": 3,
+              "tp": 3,
+              "fp": 2,
+              "fn": 0,
+              "precision": 0.6,
+              "recall": 1.0,
+              "f1": 0.7499999999999999
+            },
+            "POLITICAL_SENSITIVE": {
+              "support": 7,
+              "tp": 7,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "SCAM": {
+              "support": 5,
+              "tp": 5,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "SELF_HARM": {
+              "support": 6,
+              "tp": 5,
+              "fp": 0,
+              "fn": 1,
+              "precision": 1.0,
+              "recall": 0.8333333333333334,
+              "f1": 0.9090909090909091
+            },
+            "VIOLENCE": {
+              "support": 5,
+              "tp": 5,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            }
+          }
+        },
+        "zh": {
+          "n": 31,
+          "groups": 31,
+          "topic_correct": 30,
+          "intent_correct": 29,
+          "action_exact": 29,
+          "action_bits": {
+            "allow": {
+              "support": 29,
+              "tp": 28,
+              "fp": 0,
+              "fn": 1,
+              "precision": 1.0,
+              "recall": 0.9655172413793104,
+              "f1": 0.9824561403508771
+            },
+            "filter": {
+              "support": 23,
+              "tp": 22,
+              "fp": 0,
+              "fn": 1,
+              "precision": 1.0,
+              "recall": 0.9565217391304348,
+              "f1": 0.9777777777777777
+            },
+            "downrank": {
+              "support": 21,
+              "tp": 20,
+              "fp": 0,
+              "fn": 1,
+              "precision": 1.0,
+              "recall": 0.9523809523809523,
+              "f1": 0.975609756097561
+            },
+            "warning": {
+              "support": 4,
+              "tp": 4,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "redirect": {
+              "support": 14,
+              "tp": 12,
+              "fp": 0,
+              "fn": 2,
+              "precision": 1.0,
+              "recall": 0.8571428571428571,
+              "f1": 0.923076923076923
+            },
+            "block": {
+              "support": 2,
+              "tp": 2,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            }
+          },
+          "topics": {
+            "EATING_DISORDER_RISK": {
+              "support": 5,
+              "tp": 5,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "NONE": {
+              "support": 3,
+              "tp": 3,
+              "fp": 1,
+              "fn": 0,
+              "precision": 0.75,
+              "recall": 1.0,
+              "f1": 0.8571428571428571
+            },
+            "POLITICAL_SENSITIVE": {
+              "support": 7,
+              "tp": 7,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "SCAM": {
+              "support": 5,
+              "tp": 5,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "SELF_HARM": {
+              "support": 6,
+              "tp": 5,
+              "fp": 0,
+              "fn": 1,
+              "precision": 1.0,
+              "recall": 0.8333333333333334,
+              "f1": 0.9090909090909091
+            },
+            "VIOLENCE": {
+              "support": 5,
+              "tp": 5,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            }
+          }
+        }
+      },
+      "topics": {
+        "EATING_DISORDER_RISK": {
+          "n": 10,
+          "groups": 5,
+          "topic_correct": 9,
+          "intent_correct": 9,
+          "action_exact": 9,
+          "support": 10,
+          "tp": 9,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.9,
+          "f1": 0.9473684210526316
+        },
+        "NONE": {
+          "n": 6,
+          "groups": 3,
+          "topic_correct": 6,
+          "intent_correct": 6,
+          "action_exact": 6,
+          "support": 6,
+          "tp": 6,
+          "fp": 3,
+          "fn": 0,
+          "precision": 0.6666666666666666,
+          "recall": 1.0,
+          "f1": 0.8
+        },
+        "POLITICAL_SENSITIVE": {
+          "n": 14,
+          "groups": 7,
+          "topic_correct": 14,
+          "intent_correct": 14,
+          "action_exact": 14,
+          "support": 14,
+          "tp": 14,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "SCAM": {
+          "n": 10,
+          "groups": 5,
+          "topic_correct": 10,
+          "intent_correct": 6,
+          "action_exact": 8,
+          "support": 10,
+          "tp": 10,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "SELF_HARM": {
+          "n": 12,
+          "groups": 6,
+          "topic_correct": 10,
+          "intent_correct": 12,
+          "action_exact": 10,
+          "support": 12,
+          "tp": 10,
+          "fp": 0,
+          "fn": 2,
+          "precision": 1.0,
+          "recall": 0.8333333333333334,
+          "f1": 0.9090909090909091
+        },
+        "VIOLENCE": {
+          "n": 10,
+          "groups": 5,
+          "topic_correct": 10,
+          "intent_correct": 9,
+          "action_exact": 9,
+          "support": 10,
+          "tp": 10,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "bilingual_output_disagreement": [
+        {
+          "semantic_group_id": "g078",
+          "en_id": "sq_0155",
+          "zh_id": "sq_0156"
+        },
+        {
+          "semantic_group_id": "g093",
+          "en_id": "sq_0185",
+          "zh_id": "sq_0186"
+        }
+      ]
+    },
+    "base_direct": {
+      "overall": {
+        "n": 62,
+        "groups": 31,
+        "topic_correct": 60,
+        "intent_correct": 53,
+        "action_exact": 17
+      },
+      "action_bits": {
+        "allow": {
+          "support": 58,
+          "tp": 57,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.9827586206896551,
+          "f1": 0.9913043478260869,
+          "false_positive_ids": [],
+          "false_negative_ids": [
+            "sq_0327"
+          ]
+        },
+        "filter": {
+          "support": 46,
+          "tp": 1,
+          "fp": 0,
+          "fn": 45,
+          "precision": 1.0,
+          "recall": 0.021739130434782608,
+          "f1": 0.042553191489361694,
+          "false_positive_ids": [],
+          "false_negative_ids": [
+            "sq_0037",
+            "sq_0038",
+            "sq_0045",
+            "sq_0046",
+            "sq_0087",
+            "sq_0088",
+            "sq_0097",
+            "sq_0098",
+            "sq_0107",
+            "sq_0108",
+            "sq_0113",
+            "sq_0114",
+            "sq_0123",
+            "sq_0124",
+            "sq_0131",
+            "sq_0132",
+            "sq_0135",
+            "sq_0143",
+            "sq_0144",
+            "sq_0155",
+            "sq_0156",
+            "sq_0159",
+            "sq_0160",
+            "sq_0163",
+            "sq_0164",
+            "sq_0185",
+            "sq_0186",
+            "sq_0189",
+            "sq_0190",
+            "sq_0197",
+            "sq_0198",
+            "sq_0203",
+            "sq_0204",
+            "sq_0213",
+            "sq_0214",
+            "sq_0219",
+            "sq_0220",
+            "sq_0231",
+            "sq_0232",
+            "sq_0237",
+            "sq_0238",
+            "sq_0313",
+            "sq_0314",
+            "sq_0327",
+            "sq_0328"
+          ]
+        },
+        "downrank": {
+          "support": 42,
+          "tp": 9,
+          "fp": 0,
+          "fn": 33,
+          "precision": 1.0,
+          "recall": 0.21428571428571427,
+          "f1": 0.35294117647058826,
+          "false_positive_ids": [],
+          "false_negative_ids": [
+            "sq_0045",
+            "sq_0046",
+            "sq_0087",
+            "sq_0088",
+            "sq_0097",
+            "sq_0098",
+            "sq_0107",
+            "sq_0108",
+            "sq_0113",
+            "sq_0114",
+            "sq_0123",
+            "sq_0124",
+            "sq_0131",
+            "sq_0132",
+            "sq_0143",
+            "sq_0144",
+            "sq_0155",
+            "sq_0156",
+            "sq_0159",
+            "sq_0160",
+            "sq_0163",
+            "sq_0164",
+            "sq_0185",
+            "sq_0186",
+            "sq_0189",
+            "sq_0190",
+            "sq_0197",
+            "sq_0198",
+            "sq_0219",
+            "sq_0220",
+            "sq_0231",
+            "sq_0232",
+            "sq_0238"
+          ]
+        },
+        "warning": {
+          "support": 8,
+          "tp": 0,
+          "fp": 0,
+          "fn": 8,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "false_positive_ids": [],
+          "false_negative_ids": [
+            "sq_0113",
+            "sq_0114",
+            "sq_0155",
+            "sq_0156",
+            "sq_0189",
+            "sq_0190",
+            "sq_0231",
+            "sq_0232"
+          ]
+        },
+        "redirect": {
+          "support": 28,
+          "tp": 9,
+          "fp": 0,
+          "fn": 19,
+          "precision": 1.0,
+          "recall": 0.32142857142857145,
+          "f1": 0.4864864864864865,
+          "false_positive_ids": [],
+          "false_negative_ids": [
+            "sq_0113",
+            "sq_0114",
+            "sq_0123",
+            "sq_0124",
+            "sq_0155",
+            "sq_0156",
+            "sq_0159",
+            "sq_0160",
+            "sq_0185",
+            "sq_0186",
+            "sq_0189",
+            "sq_0190",
+            "sq_0197",
+            "sq_0198",
+            "sq_0220",
+            "sq_0231",
+            "sq_0232",
+            "sq_0237",
+            "sq_0238"
+          ]
+        },
+        "block": {
+          "support": 4,
+          "tp": 4,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "false_positive_ids": [],
+          "false_negative_ids": []
+        }
+      },
+      "languages": {
+        "en": {
+          "n": 31,
+          "groups": 31,
+          "topic_correct": 30,
+          "intent_correct": 26,
+          "action_exact": 8,
+          "action_bits": {
+            "allow": {
+              "support": 29,
+              "tp": 28,
+              "fp": 0,
+              "fn": 1,
+              "precision": 1.0,
+              "recall": 0.9655172413793104,
+              "f1": 0.9824561403508771
+            },
+            "filter": {
+              "support": 23,
+              "tp": 0,
+              "fp": 0,
+              "fn": 23,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            },
+            "downrank": {
+              "support": 21,
+              "tp": 5,
+              "fp": 0,
+              "fn": 16,
+              "precision": 1.0,
+              "recall": 0.23809523809523808,
+              "f1": 0.3846153846153846
+            },
+            "warning": {
+              "support": 4,
+              "tp": 0,
+              "fp": 0,
+              "fn": 4,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            },
+            "redirect": {
+              "support": 14,
+              "tp": 5,
+              "fp": 0,
+              "fn": 9,
+              "precision": 1.0,
+              "recall": 0.35714285714285715,
+              "f1": 0.5263157894736842
+            },
+            "block": {
+              "support": 2,
+              "tp": 2,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            }
+          },
+          "topics": {
+            "EATING_DISORDER_RISK": {
+              "support": 5,
+              "tp": 4,
+              "fp": 0,
+              "fn": 1,
+              "precision": 1.0,
+              "recall": 0.8,
+              "f1": 0.888888888888889
+            },
+            "NONE": {
+              "support": 3,
+              "tp": 3,
+              "fp": 1,
+              "fn": 0,
+              "precision": 0.75,
+              "recall": 1.0,
+              "f1": 0.8571428571428571
+            },
+            "POLITICAL_SENSITIVE": {
+              "support": 7,
+              "tp": 7,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "SCAM": {
+              "support": 5,
+              "tp": 5,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "SELF_HARM": {
+              "support": 6,
+              "tp": 6,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "VIOLENCE": {
+              "support": 5,
+              "tp": 5,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            }
+          }
+        },
+        "zh": {
+          "n": 31,
+          "groups": 31,
+          "topic_correct": 30,
+          "intent_correct": 27,
+          "action_exact": 9,
+          "action_bits": {
+            "allow": {
+              "support": 29,
+              "tp": 29,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "filter": {
+              "support": 23,
+              "tp": 1,
+              "fp": 0,
+              "fn": 22,
+              "precision": 1.0,
+              "recall": 0.043478260869565216,
+              "f1": 0.08333333333333333
+            },
+            "downrank": {
+              "support": 21,
+              "tp": 4,
+              "fp": 0,
+              "fn": 17,
+              "precision": 1.0,
+              "recall": 0.19047619047619047,
+              "f1": 0.32
+            },
+            "warning": {
+              "support": 4,
+              "tp": 0,
+              "fp": 0,
+              "fn": 4,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            },
+            "redirect": {
+              "support": 14,
+              "tp": 4,
+              "fp": 0,
+              "fn": 10,
+              "precision": 1.0,
+              "recall": 0.2857142857142857,
+              "f1": 0.4444444444444445
+            },
+            "block": {
+              "support": 2,
+              "tp": 2,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            }
+          },
+          "topics": {
+            "EATING_DISORDER_RISK": {
+              "support": 5,
+              "tp": 5,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "NONE": {
+              "support": 3,
+              "tp": 3,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "POLITICAL_SENSITIVE": {
+              "support": 7,
+              "tp": 7,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "SCAM": {
+              "support": 5,
+              "tp": 5,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "SELF_HARM": {
+              "support": 6,
+              "tp": 5,
+              "fp": 0,
+              "fn": 1,
+              "precision": 1.0,
+              "recall": 0.8333333333333334,
+              "f1": 0.9090909090909091
+            },
+            "VIOLENCE": {
+              "support": 5,
+              "tp": 5,
+              "fp": 1,
+              "fn": 0,
+              "precision": 0.8333333333333334,
+              "recall": 1.0,
+              "f1": 0.9090909090909091
+            }
+          }
+        }
+      },
+      "topics": {
+        "EATING_DISORDER_RISK": {
+          "n": 10,
+          "groups": 5,
+          "topic_correct": 9,
+          "intent_correct": 8,
+          "action_exact": 1,
+          "support": 10,
+          "tp": 9,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.9,
+          "f1": 0.9473684210526316
+        },
+        "NONE": {
+          "n": 6,
+          "groups": 3,
+          "topic_correct": 6,
+          "intent_correct": 6,
+          "action_exact": 6,
+          "support": 6,
+          "tp": 6,
+          "fp": 1,
+          "fn": 0,
+          "precision": 0.8571428571428571,
+          "recall": 1.0,
+          "f1": 0.923076923076923
+        },
+        "POLITICAL_SENSITIVE": {
+          "n": 14,
+          "groups": 7,
+          "topic_correct": 14,
+          "intent_correct": 14,
+          "action_exact": 10,
+          "support": 14,
+          "tp": 14,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "SCAM": {
+          "n": 10,
+          "groups": 5,
+          "topic_correct": 10,
+          "intent_correct": 6,
+          "action_exact": 0,
+          "support": 10,
+          "tp": 10,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "SELF_HARM": {
+          "n": 12,
+          "groups": 6,
+          "topic_correct": 11,
+          "intent_correct": 10,
+          "action_exact": 0,
+          "support": 12,
+          "tp": 11,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.9166666666666666,
+          "f1": 0.9565217391304348
+        },
+        "VIOLENCE": {
+          "n": 10,
+          "groups": 5,
+          "topic_correct": 10,
+          "intent_correct": 9,
+          "action_exact": 0,
+          "support": 10,
+          "tp": 10,
+          "fp": 1,
+          "fn": 0,
+          "precision": 0.9090909090909091,
+          "recall": 1.0,
+          "f1": 0.9523809523809523
+        }
+      },
+      "bilingual_output_disagreement": [
+        {
+          "semantic_group_id": "g054",
+          "en_id": "sq_0107",
+          "zh_id": "sq_0108"
+        },
+        {
+          "semantic_group_id": "g062",
+          "en_id": "sq_0123",
+          "zh_id": "sq_0124"
+        },
+        {
+          "semantic_group_id": "g068",
+          "en_id": "sq_0135",
+          "zh_id": "sq_0136"
+        },
+        {
+          "semantic_group_id": "g078",
+          "en_id": "sq_0155",
+          "zh_id": "sq_0156"
+        },
+        {
+          "semantic_group_id": "g099",
+          "en_id": "sq_0197",
+          "zh_id": "sq_0198"
+        },
+        {
+          "semantic_group_id": "g110",
+          "en_id": "sq_0219",
+          "zh_id": "sq_0220"
+        },
+        {
+          "semantic_group_id": "g119",
+          "en_id": "sq_0237",
+          "zh_id": "sq_0238"
+        },
+        {
+          "semantic_group_id": "g163",
+          "en_id": "sq_0327",
+          "zh_id": "sq_0328"
+        }
+      ]
+    },
+    "tuned_direct": {
+      "overall": {
+        "n": 62,
+        "groups": 31,
+        "topic_correct": 56,
+        "intent_correct": 56,
+        "action_exact": 50
+      },
+      "action_bits": {
+        "allow": {
+          "support": 58,
+          "tp": 58,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "false_positive_ids": [],
+          "false_negative_ids": []
+        },
+        "filter": {
+          "support": 46,
+          "tp": 46,
+          "fp": 3,
+          "fn": 0,
+          "precision": 0.9387755102040817,
+          "recall": 1.0,
+          "f1": 0.968421052631579,
+          "false_positive_ids": [
+            "sq_0063",
+            "sq_0064",
+            "sq_0071"
+          ],
+          "false_negative_ids": []
+        },
+        "downrank": {
+          "support": 42,
+          "tp": 42,
+          "fp": 7,
+          "fn": 0,
+          "precision": 0.8571428571428571,
+          "recall": 1.0,
+          "f1": 0.923076923076923,
+          "false_positive_ids": [
+            "sq_0063",
+            "sq_0064",
+            "sq_0071",
+            "sq_0313",
+            "sq_0314",
+            "sq_0327",
+            "sq_0328"
+          ],
+          "false_negative_ids": []
+        },
+        "warning": {
+          "support": 8,
+          "tp": 7,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.875,
+          "f1": 0.9333333333333333,
+          "false_positive_ids": [],
+          "false_negative_ids": [
+            "sq_0155"
+          ]
+        },
+        "redirect": {
+          "support": 28,
+          "tp": 26,
+          "fp": 2,
+          "fn": 2,
+          "precision": 0.9285714285714286,
+          "recall": 0.9285714285714286,
+          "f1": 0.9285714285714286,
+          "false_positive_ids": [
+            "sq_0046",
+            "sq_0088"
+          ],
+          "false_negative_ids": [
+            "sq_0237",
+            "sq_0238"
+          ]
+        },
+        "block": {
+          "support": 4,
+          "tp": 4,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "false_positive_ids": [],
+          "false_negative_ids": []
+        }
+      },
+      "languages": {
+        "en": {
+          "n": 31,
+          "groups": 31,
+          "topic_correct": 28,
+          "intent_correct": 27,
+          "action_exact": 25,
+          "action_bits": {
+            "allow": {
+              "support": 29,
+              "tp": 29,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "filter": {
+              "support": 23,
+              "tp": 23,
+              "fp": 2,
+              "fn": 0,
+              "precision": 0.92,
+              "recall": 1.0,
+              "f1": 0.9583333333333334
+            },
+            "downrank": {
+              "support": 21,
+              "tp": 21,
+              "fp": 4,
+              "fn": 0,
+              "precision": 0.84,
+              "recall": 1.0,
+              "f1": 0.9130434782608696
+            },
+            "warning": {
+              "support": 4,
+              "tp": 3,
+              "fp": 0,
+              "fn": 1,
+              "precision": 1.0,
+              "recall": 0.75,
+              "f1": 0.8571428571428571
+            },
+            "redirect": {
+              "support": 14,
+              "tp": 13,
+              "fp": 0,
+              "fn": 1,
+              "precision": 1.0,
+              "recall": 0.9285714285714286,
+              "f1": 0.962962962962963
+            },
+            "block": {
+              "support": 2,
+              "tp": 2,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            }
+          },
+          "topics": {
+            "EATING_DISORDER_RISK": {
+              "support": 5,
+              "tp": 4,
+              "fp": 0,
+              "fn": 1,
+              "precision": 1.0,
+              "recall": 0.8,
+              "f1": 0.888888888888889
+            },
+            "NONE": {
+              "support": 3,
+              "tp": 2,
+              "fp": 0,
+              "fn": 1,
+              "precision": 1.0,
+              "recall": 0.6666666666666666,
+              "f1": 0.8
+            },
+            "POLITICAL_SENSITIVE": {
+              "support": 7,
+              "tp": 7,
+              "fp": 2,
+              "fn": 0,
+              "precision": 0.7777777777777778,
+              "recall": 1.0,
+              "f1": 0.8750000000000001
+            },
+            "SCAM": {
+              "support": 5,
+              "tp": 5,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "SELF_HARM": {
+              "support": 6,
+              "tp": 5,
+              "fp": 0,
+              "fn": 1,
+              "precision": 1.0,
+              "recall": 0.8333333333333334,
+              "f1": 0.9090909090909091
+            },
+            "VIOLENCE": {
+              "support": 5,
+              "tp": 5,
+              "fp": 1,
+              "fn": 0,
+              "precision": 0.8333333333333334,
+              "recall": 1.0,
+              "f1": 0.9090909090909091
+            }
+          }
+        },
+        "zh": {
+          "n": 31,
+          "groups": 31,
+          "topic_correct": 28,
+          "intent_correct": 29,
+          "action_exact": 25,
+          "action_bits": {
+            "allow": {
+              "support": 29,
+              "tp": 29,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "filter": {
+              "support": 23,
+              "tp": 23,
+              "fp": 1,
+              "fn": 0,
+              "precision": 0.9583333333333334,
+              "recall": 1.0,
+              "f1": 0.9787234042553191
+            },
+            "downrank": {
+              "support": 21,
+              "tp": 21,
+              "fp": 3,
+              "fn": 0,
+              "precision": 0.875,
+              "recall": 1.0,
+              "f1": 0.9333333333333333
+            },
+            "warning": {
+              "support": 4,
+              "tp": 4,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "redirect": {
+              "support": 14,
+              "tp": 13,
+              "fp": 2,
+              "fn": 1,
+              "precision": 0.8666666666666667,
+              "recall": 0.9285714285714286,
+              "f1": 0.896551724137931
+            },
+            "block": {
+              "support": 2,
+              "tp": 2,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            }
+          },
+          "topics": {
+            "EATING_DISORDER_RISK": {
+              "support": 5,
+              "tp": 5,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "NONE": {
+              "support": 3,
+              "tp": 1,
+              "fp": 0,
+              "fn": 2,
+              "precision": 1.0,
+              "recall": 0.3333333333333333,
+              "f1": 0.5
+            },
+            "POLITICAL_SENSITIVE": {
+              "support": 7,
+              "tp": 7,
+              "fp": 2,
+              "fn": 0,
+              "precision": 0.7777777777777778,
+              "recall": 1.0,
+              "f1": 0.8750000000000001
+            },
+            "SCAM": {
+              "support": 5,
+              "tp": 5,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "SELF_HARM": {
+              "support": 6,
+              "tp": 5,
+              "fp": 0,
+              "fn": 1,
+              "precision": 1.0,
+              "recall": 0.8333333333333334,
+              "f1": 0.9090909090909091
+            },
+            "VIOLENCE": {
+              "support": 5,
+              "tp": 5,
+              "fp": 1,
+              "fn": 0,
+              "precision": 0.8333333333333334,
+              "recall": 1.0,
+              "f1": 0.9090909090909091
+            }
+          }
+        }
+      },
+      "topics": {
+        "EATING_DISORDER_RISK": {
+          "n": 10,
+          "groups": 5,
+          "topic_correct": 9,
+          "intent_correct": 9,
+          "action_exact": 9,
+          "support": 10,
+          "tp": 9,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.9,
+          "f1": 0.9473684210526316
+        },
+        "NONE": {
+          "n": 6,
+          "groups": 3,
+          "topic_correct": 3,
+          "intent_correct": 6,
+          "action_exact": 3,
+          "support": 6,
+          "tp": 3,
+          "fp": 0,
+          "fn": 3,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.6666666666666666
+        },
+        "POLITICAL_SENSITIVE": {
+          "n": 14,
+          "groups": 7,
+          "topic_correct": 14,
+          "intent_correct": 14,
+          "action_exact": 10,
+          "support": 14,
+          "tp": 14,
+          "fp": 4,
+          "fn": 0,
+          "precision": 0.7777777777777778,
+          "recall": 1.0,
+          "f1": 0.8750000000000001
+        },
+        "SCAM": {
+          "n": 10,
+          "groups": 5,
+          "topic_correct": 10,
+          "intent_correct": 6,
+          "action_exact": 8,
+          "support": 10,
+          "tp": 10,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "SELF_HARM": {
+          "n": 12,
+          "groups": 6,
+          "topic_correct": 10,
+          "intent_correct": 11,
+          "action_exact": 10,
+          "support": 12,
+          "tp": 10,
+          "fp": 0,
+          "fn": 2,
+          "precision": 1.0,
+          "recall": 0.8333333333333334,
+          "f1": 0.9090909090909091
+        },
+        "VIOLENCE": {
+          "n": 10,
+          "groups": 5,
+          "topic_correct": 10,
+          "intent_correct": 10,
+          "action_exact": 10,
+          "support": 10,
+          "tp": 10,
+          "fp": 2,
+          "fn": 0,
+          "precision": 0.8333333333333334,
+          "recall": 1.0,
+          "f1": 0.9090909090909091
+        }
+      },
+      "bilingual_output_disagreement": [
+        {
+          "semantic_group_id": "g032",
+          "en_id": "sq_0063",
+          "zh_id": "sq_0064"
+        },
+        {
+          "semantic_group_id": "g036",
+          "en_id": "sq_0071",
+          "zh_id": "sq_0072"
+        },
+        {
+          "semantic_group_id": "g044",
+          "en_id": "sq_0087",
+          "zh_id": "sq_0088"
+        },
+        {
+          "semantic_group_id": "g062",
+          "en_id": "sq_0123",
+          "zh_id": "sq_0124"
+        },
+        {
+          "semantic_group_id": "g078",
+          "en_id": "sq_0155",
+          "zh_id": "sq_0156"
+        },
+        {
+          "semantic_group_id": "g119",
+          "en_id": "sq_0237",
+          "zh_id": "sq_0238"
+        },
+        {
+          "semantic_group_id": "g23",
+          "en_id": "sq_0045",
+          "zh_id": "sq_0046"
+        }
+      ]
+    }
+  }
+}

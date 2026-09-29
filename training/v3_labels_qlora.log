@@ -1,0 +1,390 @@
+Loading pretrained model
+Loading datasets
+Training
+Trainable parameters: 0.030% (2.705M/8953.802M)
+Starting training..., iters: 700
+
+Calculating loss...:   0%|          | 0/16 [00:00<?, ?it/s]
+Calculating loss...:   6%|▋         | 1/16 [00:01<00:19,  1.33s/it]
+Calculating loss...:  12%|█▎        | 2/16 [00:02<00:18,  1.30s/it]
+Calculating loss...:  19%|█▉        | 3/16 [00:04<00:17,  1.35s/it]
+Calculating loss...:  25%|██▌       | 4/16 [00:05<00:16,  1.38s/it]
+Calculating loss...:  31%|███▏      | 5/16 [00:06<00:14,  1.35s/it]
+Calculating loss...:  38%|███▊      | 6/16 [00:08<00:13,  1.37s/it]
+Calculating loss...:  44%|████▍     | 7/16 [00:09<00:12,  1.34s/it]
+Calculating loss...:  50%|█████     | 8/16 [00:10<00:10,  1.36s/it]
+Calculating loss...:  56%|█████▋    | 9/16 [00:12<00:09,  1.33s/it]
+Calculating loss...:  62%|██████▎   | 10/16 [00:13<00:08,  1.36s/it]
+Calculating loss...:  69%|██████▉   | 11/16 [00:14<00:06,  1.37s/it]
+Calculating loss...:  75%|███████▌  | 12/16 [00:16<00:05,  1.38s/it]
+Calculating loss...:  81%|████████▏ | 13/16 [00:17<00:04,  1.39s/it]
+Calculating loss...:  88%|████████▊ | 14/16 [00:18<00:02,  1.35s/it]
+Calculating loss...:  94%|█████████▍| 15/16 [00:20<00:01,  1.37s/it]
+Calculating loss...: 100%|██████████| 16/16 [00:21<00:00,  1.38s/it]
+Calculating loss...: 100%|██████████| 16/16 [00:21<00:00,  1.36s/it]
+Iter 1: Val loss 1.610, Val took 21.812s
+Iter 10: Train loss 0.337, Learning Rate 5.000e-05, It/sec 0.262, Tokens/sec 4.816, Trained Tokens 184, Peak mem 9.702 GB
+Iter 20: Train loss 0.160, Learning Rate 5.000e-05, It/sec 0.337, Tokens/sec 6.310, Trained Tokens 371, Peak mem 9.702 GB
+Iter 30: Train loss 0.253, Learning Rate 5.000e-05, It/sec 0.331, Tokens/sec 5.924, Trained Tokens 550, Peak mem 9.702 GB
+Iter 40: Train loss 0.078, Learning Rate 5.000e-05, It/sec 0.325, Tokens/sec 6.214, Trained Tokens 741, Peak mem 9.702 GB
+
+Calculating loss...:   0%|          | 0/16 [00:00<?, ?it/s]
+Calculating loss...:   6%|▋         | 1/16 [00:01<00:21,  1.41s/it]
+Calculating loss...:  12%|█▎        | 2/16 [00:02<00:18,  1.33s/it]
+Calculating loss...:  19%|█▉        | 3/16 [00:03<00:16,  1.31s/it]
+Calculating loss...:  25%|██▌       | 4/16 [00:05<00:16,  1.34s/it]
+Calculating loss...:  31%|███▏      | 5/16 [00:06<00:15,  1.36s/it]
+Calculating loss...:  38%|███▊      | 6/16 [00:08<00:13,  1.38s/it]
+Calculating loss...:  44%|████▍     | 7/16 [00:09<00:12,  1.35s/it]
+Calculating loss...:  50%|█████     | 8/16 [00:10<00:10,  1.37s/it]
+Calculating loss...:  56%|█████▋    | 9/16 [00:12<00:09,  1.38s/it]
+Calculating loss...:  62%|██████▎   | 10/16 [00:13<00:08,  1.35s/it]
+Calculating loss...:  69%|██████▉   | 11/16 [00:14<00:06,  1.32s/it]
+Calculating loss...:  75%|███████▌  | 12/16 [00:16<00:05,  1.31s/it]
+Calculating loss...:  81%|████████▏ | 13/16 [00:17<00:03,  1.30s/it]
+Calculating loss...:  88%|████████▊ | 14/16 [00:18<00:02,  1.29s/it]
+Calculating loss...:  94%|█████████▍| 15/16 [00:19<00:01,  1.29s/it]
+Calculating loss...: 100%|██████████| 16/16 [00:21<00:00,  1.28s/it]
+Calculating loss...: 100%|██████████| 16/16 [00:21<00:00,  1.32s/it]
+Iter 50: Val loss 0.169, Val took 21.190s
+Iter 50: Train loss 0.206, Learning Rate 5.000e-05, It/sec 0.322, Tokens/sec 6.702, Trained Tokens 949, Peak mem 9.702 GB
+Iter 50: Saved adapter weights to adapters/v3_labels_qlora/adapters.safetensors and adapters/v3_labels_qlora/0000050_adapters.safetensors.
+Iter 60: Train loss 0.052, Learning Rate 5.000e-05, It/sec 0.322, Tokens/sec 6.574, Trained Tokens 1153, Peak mem 9.712 GB
+Iter 70: Train loss 0.116, Learning Rate 5.000e-05, It/sec 0.335, Tokens/sec 6.323, Trained Tokens 1342, Peak mem 9.712 GB
+Iter 80: Train loss 0.177, Learning Rate 5.000e-05, It/sec 0.342, Tokens/sec 6.182, Trained Tokens 1523, Peak mem 9.712 GB
+Iter 90: Train loss 0.141, Learning Rate 5.000e-05, It/sec 0.335, Tokens/sec 6.493, Trained Tokens 1717, Peak mem 9.712 GB
+
+Calculating loss...:   0%|          | 0/16 [00:00<?, ?it/s]
+Calculating loss...:   6%|▋         | 1/16 [00:01<00:21,  1.40s/it]
+Calculating loss...:  12%|█▎        | 2/16 [00:02<00:19,  1.40s/it]
+Calculating loss...:  19%|█▉        | 3/16 [00:04<00:18,  1.40s/it]
+Calculating loss...:  25%|██▌       | 4/16 [00:05<00:16,  1.40s/it]
+Calculating loss...:  31%|███▏      | 5/16 [00:07<00:15,  1.40s/it]
+Calculating loss...:  38%|███▊      | 6/16 [00:08<00:14,  1.40s/it]
+Calculating loss...:  44%|████▍     | 7/16 [00:09<00:12,  1.40s/it]
+Calculating loss...:  50%|█████     | 8/16 [00:11<00:10,  1.36s/it]
+Calculating loss...:  56%|█████▋    | 9/16 [00:12<00:09,  1.34s/it]
+Calculating loss...:  62%|██████▎   | 10/16 [00:13<00:07,  1.32s/it]
+Calculating loss...:  69%|██████▉   | 11/16 [00:15<00:06,  1.34s/it]
+Calculating loss...:  75%|███████▌  | 12/16 [00:16<00:05,  1.36s/it]
+Calculating loss...:  81%|████████▏ | 13/16 [00:17<00:04,  1.33s/it]
+Calculating loss...:  88%|████████▊ | 14/16 [00:19<00:02,  1.32s/it]
+Calculating loss...:  94%|█████████▍| 15/16 [00:20<00:01,  1.30s/it]
+Calculating loss...: 100%|██████████| 16/16 [00:21<00:00,  1.30s/it]
+Calculating loss...: 100%|██████████| 16/16 [00:21<00:00,  1.35s/it]
+Iter 100: Val loss 0.049, Val took 21.557s
+Iter 100: Train loss 0.038, Learning Rate 5.000e-05, It/sec 0.335, Tokens/sec 6.625, Trained Tokens 1915, Peak mem 9.712 GB
+Iter 100: Saved adapter weights to adapters/v3_labels_qlora/adapters.safetensors and adapters/v3_labels_qlora/0000100_adapters.safetensors.
+Iter 110: Train loss 0.063, Learning Rate 5.000e-05, It/sec 0.335, Tokens/sec 6.263, Trained Tokens 2102, Peak mem 9.712 GB
+Iter 120: Train loss 0.089, Learning Rate 5.000e-05, It/sec 0.338, Tokens/sec 6.118, Trained Tokens 2283, Peak mem 9.712 GB
+Iter 130: Train loss 0.124, Learning Rate 5.000e-05, It/sec 0.335, Tokens/sec 6.298, Trained Tokens 2471, Peak mem 9.712 GB
+Iter 140: Train loss 0.052, Learning Rate 5.000e-05, It/sec 0.332, Tokens/sec 6.141, Trained Tokens 2656, Peak mem 9.712 GB
+
+Calculating loss...:   0%|          | 0/16 [00:00<?, ?it/s]
+Calculating loss...:   6%|▋         | 1/16 [00:01<00:21,  1.40s/it]
+Calculating loss...:  12%|█▎        | 2/16 [00:02<00:19,  1.40s/it]
+Calculating loss...:  19%|█▉        | 3/16 [00:04<00:17,  1.34s/it]
+Calculating loss...:  25%|██▌       | 4/16 [00:05<00:16,  1.37s/it]
+Calculating loss...:  31%|███▏      | 5/16 [00:06<00:15,  1.38s/it]
+Calculating loss...:  38%|███▊      | 6/16 [00:08<00:13,  1.39s/it]
+Calculating loss...:  44%|████▍     | 7/16 [00:09<00:12,  1.40s/it]
+Calculating loss...:  50%|█████     | 8/16 [00:11<00:11,  1.40s/it]
+Calculating loss...:  56%|█████▋    | 9/16 [00:12<00:09,  1.40s/it]
+Calculating loss...:  62%|██████▎   | 10/16 [00:13<00:08,  1.36s/it]
+Calculating loss...:  69%|██████▉   | 11/16 [00:15<00:06,  1.37s/it]
+Calculating loss...:  75%|███████▌  | 12/16 [00:16<00:05,  1.34s/it]
+Calculating loss...:  81%|████████▏ | 13/16 [00:17<00:04,  1.36s/it]
+Calculating loss...:  88%|████████▊ | 14/16 [00:19<00:02,  1.37s/it]
+Calculating loss...:  94%|█████████▍| 15/16 [00:20<00:01,  1.38s/it]
+Calculating loss...: 100%|██████████| 16/16 [00:22<00:00,  1.39s/it]
+Calculating loss...: 100%|██████████| 16/16 [00:22<00:00,  1.38s/it]
+Iter 150: Val loss 0.134, Val took 22.074s
+Iter 150: Train loss 0.043, Learning Rate 5.000e-05, It/sec 0.328, Tokens/sec 6.499, Trained Tokens 2854, Peak mem 9.713 GB
+Iter 150: Saved adapter weights to adapters/v3_labels_qlora/adapters.safetensors and adapters/v3_labels_qlora/0000150_adapters.safetensors.
+Iter 160: Train loss 0.070, Learning Rate 5.000e-05, It/sec 0.328, Tokens/sec 6.366, Trained Tokens 3048, Peak mem 9.713 GB
+Iter 170: Train loss 0.054, Learning Rate 5.000e-05, It/sec 0.341, Tokens/sec 5.838, Trained Tokens 3219, Peak mem 9.713 GB
+Iter 180: Train loss 0.038, Learning Rate 5.000e-05, It/sec 0.332, Tokens/sec 6.301, Trained Tokens 3409, Peak mem 9.713 GB
+Iter 190: Train loss 0.032, Learning Rate 5.000e-05, It/sec 0.332, Tokens/sec 6.502, Trained Tokens 3605, Peak mem 9.713 GB
+
+Calculating loss...:   0%|          | 0/16 [00:00<?, ?it/s]
+Calculating loss...:   6%|▋         | 1/16 [00:01<00:21,  1.40s/it]
+Calculating loss...:  12%|█▎        | 2/16 [00:02<00:19,  1.40s/it]
+Calculating loss...:  19%|█▉        | 3/16 [00:04<00:18,  1.40s/it]
+Calculating loss...:  25%|██▌       | 4/16 [00:05<00:16,  1.40s/it]
+Calculating loss...:  31%|███▏      | 5/16 [00:07<00:15,  1.40s/it]
+Calculating loss...:  38%|███▊      | 6/16 [00:08<00:14,  1.41s/it]
+Calculating loss...:  44%|████▍     | 7/16 [00:09<00:12,  1.37s/it]
+Calculating loss...:  50%|█████     | 8/16 [00:11<00:11,  1.38s/it]
+Calculating loss...:  56%|█████▋    | 9/16 [00:12<00:09,  1.39s/it]
+Calculating loss...:  62%|██████▎   | 10/16 [00:13<00:08,  1.39s/it]
+Calculating loss...:  69%|██████▉   | 11/16 [00:15<00:06,  1.36s/it]
+Calculating loss...:  75%|███████▌  | 12/16 [00:16<00:05,  1.33s/it]
+Calculating loss...:  81%|████████▏ | 13/16 [00:17<00:04,  1.36s/it]
+Calculating loss...:  88%|████████▊ | 14/16 [00:19<00:02,  1.33s/it]
+Calculating loss...:  94%|█████████▍| 15/16 [00:20<00:01,  1.35s/it]
+Calculating loss...: 100%|██████████| 16/16 [00:21<00:00,  1.37s/it]
+Calculating loss...: 100%|██████████| 16/16 [00:21<00:00,  1.37s/it]
+Iter 200: Val loss 0.102, Val took 21.963s
+Iter 200: Train loss 0.011, Learning Rate 5.000e-05, It/sec 0.331, Tokens/sec 5.963, Trained Tokens 3785, Peak mem 9.713 GB
+Iter 200: Saved adapter weights to adapters/v3_labels_qlora/adapters.safetensors and adapters/v3_labels_qlora/0000200_adapters.safetensors.
+Iter 210: Train loss 0.030, Learning Rate 5.000e-05, It/sec 0.325, Tokens/sec 6.668, Trained Tokens 3990, Peak mem 9.713 GB
+Iter 220: Train loss 0.079, Learning Rate 5.000e-05, It/sec 0.331, Tokens/sec 6.231, Trained Tokens 4178, Peak mem 9.713 GB
+Iter 230: Train loss 0.010, Learning Rate 5.000e-05, It/sec 0.335, Tokens/sec 6.356, Trained Tokens 4368, Peak mem 9.713 GB
+Iter 240: Train loss 0.062, Learning Rate 5.000e-05, It/sec 0.341, Tokens/sec 6.312, Trained Tokens 4553, Peak mem 9.713 GB
+
+Calculating loss...:   0%|          | 0/16 [00:00<?, ?it/s]
+Calculating loss...:   6%|▋         | 1/16 [00:01<00:19,  1.28s/it]
+Calculating loss...:  12%|█▎        | 2/16 [00:02<00:18,  1.35s/it]
+Calculating loss...:  19%|█▉        | 3/16 [00:03<00:17,  1.32s/it]
+Calculating loss...:  25%|██▌       | 4/16 [00:05<00:16,  1.35s/it]
+Calculating loss...:  31%|███▏      | 5/16 [00:06<00:15,  1.37s/it]
+Calculating loss...:  38%|███▊      | 6/16 [00:08<00:13,  1.34s/it]
+Calculating loss...:  44%|████▍     | 7/16 [00:09<00:11,  1.32s/it]
+Calculating loss...:  50%|█████     | 8/16 [00:10<00:10,  1.34s/it]
+Calculating loss...:  56%|█████▋    | 9/16 [00:12<00:09,  1.36s/it]
+Calculating loss...:  62%|██████▎   | 10/16 [00:13<00:08,  1.33s/it]
+Calculating loss...:  69%|██████▉   | 11/16 [00:14<00:06,  1.32s/it]
+Calculating loss...:  75%|███████▌  | 12/16 [00:15<00:05,  1.30s/it]
+Calculating loss...:  81%|████████▏ | 13/16 [00:17<00:03,  1.33s/it]
+Calculating loss...:  88%|████████▊ | 14/16 [00:18<00:02,  1.32s/it]
+Calculating loss...:  94%|█████████▍| 15/16 [00:20<00:01,  1.34s/it]
+Calculating loss...: 100%|██████████| 16/16 [00:21<00:00,  1.36s/it]
+Calculating loss...: 100%|██████████| 16/16 [00:21<00:00,  1.34s/it]
+Iter 250: Val loss 0.091, Val took 21.421s
+Iter 250: Train loss 0.044, Learning Rate 5.000e-05, It/sec 0.331, Tokens/sec 6.292, Trained Tokens 4743, Peak mem 9.713 GB
+Iter 250: Saved adapter weights to adapters/v3_labels_qlora/adapters.safetensors and adapters/v3_labels_qlora/0000250_adapters.safetensors.
+Iter 260: Train loss 0.066, Learning Rate 5.000e-05, It/sec 0.325, Tokens/sec 6.303, Trained Tokens 4937, Peak mem 9.713 GB
+Iter 270: Train loss 0.086, Learning Rate 5.000e-05, It/sec 0.325, Tokens/sec 6.435, Trained Tokens 5135, Peak mem 9.713 GB
+Iter 280: Train loss 0.092, Learning Rate 5.000e-05, It/sec 0.328, Tokens/sec 6.238, Trained Tokens 5325, Peak mem 9.713 GB
+Iter 290: Train loss 0.041, Learning Rate 5.000e-05, It/sec 0.332, Tokens/sec 6.367, Trained Tokens 5517, Peak mem 9.713 GB
+
+Calculating loss...:   0%|          | 0/16 [00:00<?, ?it/s]
+Calculating loss...:   6%|▋         | 1/16 [00:01<00:21,  1.41s/it]
+Calculating loss...:  12%|█▎        | 2/16 [00:02<00:19,  1.41s/it]
+Calculating loss...:  19%|█▉        | 3/16 [00:04<00:18,  1.42s/it]
+Calculating loss...:  25%|██▌       | 4/16 [00:05<00:16,  1.37s/it]
+Calculating loss...:  31%|███▏      | 5/16 [00:06<00:15,  1.38s/it]
+Calculating loss...:  38%|███▊      | 6/16 [00:08<00:13,  1.39s/it]
+Calculating loss...:  44%|████▍     | 7/16 [00:09<00:12,  1.39s/it]
+Calculating loss...:  50%|█████     | 8/16 [00:11<00:10,  1.36s/it]
+Calculating loss...:  56%|█████▋    | 9/16 [00:12<00:09,  1.37s/it]
+Calculating loss...:  62%|██████▎   | 10/16 [00:13<00:08,  1.38s/it]
+Calculating loss...:  69%|██████▉   | 11/16 [00:15<00:06,  1.35s/it]
+Calculating loss...:  75%|███████▌  | 12/16 [00:16<00:05,  1.33s/it]
+Calculating loss...:  81%|████████▏ | 13/16 [00:17<00:04,  1.35s/it]
+Calculating loss...:  88%|████████▊ | 14/16 [00:19<00:02,  1.36s/it]
+Calculating loss...:  94%|█████████▍| 15/16 [00:20<00:01,  1.37s/it]
+Calculating loss...: 100%|██████████| 16/16 [00:21<00:00,  1.38s/it]
+Calculating loss...: 100%|██████████| 16/16 [00:21<00:00,  1.37s/it]
+Iter 300: Val loss 0.072, Val took 21.977s
+Iter 300: Train loss 0.097, Learning Rate 5.000e-05, It/sec 0.331, Tokens/sec 6.559, Trained Tokens 5715, Peak mem 9.713 GB
+Iter 300: Saved adapter weights to adapters/v3_labels_qlora/adapters.safetensors and adapters/v3_labels_qlora/0000300_adapters.safetensors.
+Iter 310: Train loss 0.039, Learning Rate 5.000e-05, It/sec 0.332, Tokens/sec 6.202, Trained Tokens 5902, Peak mem 9.713 GB
+Iter 320: Train loss 0.065, Learning Rate 5.000e-05, It/sec 0.325, Tokens/sec 6.243, Trained Tokens 6094, Peak mem 9.713 GB
+Iter 330: Train loss 0.055, Learning Rate 5.000e-05, It/sec 0.332, Tokens/sec 6.237, Trained Tokens 6282, Peak mem 9.713 GB
+Iter 340: Train loss 0.052, Learning Rate 5.000e-05, It/sec 0.341, Tokens/sec 6.343, Trained Tokens 6468, Peak mem 9.713 GB
+
+Calculating loss...:   0%|          | 0/16 [00:00<?, ?it/s]
+Calculating loss...:   6%|▋         | 1/16 [00:01<00:21,  1.41s/it]
+Calculating loss...:  12%|█▎        | 2/16 [00:02<00:19,  1.41s/it]
+Calculating loss...:  19%|█▉        | 3/16 [00:04<00:18,  1.41s/it]
+Calculating loss...:  25%|██▌       | 4/16 [00:05<00:16,  1.40s/it]
+Calculating loss...:  31%|███▏      | 5/16 [00:07<00:15,  1.40s/it]
+Calculating loss...:  38%|███▊      | 6/16 [00:08<00:14,  1.40s/it]
+Calculating loss...:  44%|████▍     | 7/16 [00:09<00:12,  1.40s/it]
+Calculating loss...:  50%|█████     | 8/16 [00:11<00:11,  1.40s/it]
+Calculating loss...:  56%|█████▋    | 9/16 [00:12<00:09,  1.40s/it]
+Calculating loss...:  62%|██████▎   | 10/16 [00:14<00:08,  1.40s/it]
+Calculating loss...:  69%|██████▉   | 11/16 [00:15<00:06,  1.40s/it]
+Calculating loss...:  75%|███████▌  | 12/16 [00:16<00:05,  1.40s/it]
+Calculating loss...:  81%|████████▏ | 13/16 [00:18<00:04,  1.40s/it]
+Calculating loss...:  88%|████████▊ | 14/16 [00:19<00:02,  1.37s/it]
+Calculating loss...:  94%|█████████▍| 15/16 [00:20<00:01,  1.34s/it]
+Calculating loss...: 100%|██████████| 16/16 [00:22<00:00,  1.36s/it]
+Calculating loss...: 100%|██████████| 16/16 [00:22<00:00,  1.39s/it]
+Iter 350: Val loss 0.070, Val took 22.188s
+Iter 350: Train loss 0.018, Learning Rate 5.000e-05, It/sec 0.335, Tokens/sec 6.332, Trained Tokens 6657, Peak mem 9.713 GB
+Iter 350: Saved adapter weights to adapters/v3_labels_qlora/adapters.safetensors and adapters/v3_labels_qlora/0000350_adapters.safetensors.
+Iter 360: Train loss 0.078, Learning Rate 5.000e-05, It/sec 0.325, Tokens/sec 6.276, Trained Tokens 6850, Peak mem 9.713 GB
+Iter 370: Train loss 0.059, Learning Rate 5.000e-05, It/sec 0.335, Tokens/sec 6.423, Trained Tokens 7042, Peak mem 9.713 GB
+Iter 380: Train loss 0.046, Learning Rate 5.000e-05, It/sec 0.332, Tokens/sec 6.299, Trained Tokens 7232, Peak mem 9.713 GB
+Iter 390: Train loss 0.014, Learning Rate 5.000e-05, It/sec 0.335, Tokens/sec 5.957, Trained Tokens 7410, Peak mem 9.713 GB
+
+Calculating loss...:   0%|          | 0/16 [00:00<?, ?it/s]
+Calculating loss...:   6%|▋         | 1/16 [00:01<00:19,  1.28s/it]
+Calculating loss...:  12%|█▎        | 2/16 [00:02<00:17,  1.28s/it]
+Calculating loss...:  19%|█▉        | 3/16 [00:03<00:16,  1.28s/it]
+Calculating loss...:  25%|██▌       | 4/16 [00:05<00:15,  1.33s/it]
+Calculating loss...:  31%|███▏      | 5/16 [00:06<00:14,  1.35s/it]
+Calculating loss...:  38%|███▊      | 6/16 [00:08<00:13,  1.37s/it]
+Calculating loss...:  44%|████▍     | 7/16 [00:09<00:12,  1.34s/it]
+Calculating loss...:  50%|█████     | 8/16 [00:10<00:10,  1.32s/it]
+Calculating loss...:  56%|█████▋    | 9/16 [00:11<00:09,  1.34s/it]
+Calculating loss...:  62%|██████▎   | 10/16 [00:13<00:08,  1.36s/it]
+Calculating loss...:  69%|██████▉   | 11/16 [00:14<00:06,  1.33s/it]
+Calculating loss...:  75%|███████▌  | 12/16 [00:15<00:05,  1.32s/it]
+Calculating loss...:  81%|████████▏ | 13/16 [00:17<00:04,  1.34s/it]
+Calculating loss...:  88%|████████▊ | 14/16 [00:18<00:02,  1.36s/it]
+Calculating loss...:  94%|█████████▍| 15/16 [00:20<00:01,  1.33s/it]
+Calculating loss...: 100%|██████████| 16/16 [00:21<00:00,  1.35s/it]
+Calculating loss...: 100%|██████████| 16/16 [00:21<00:00,  1.34s/it]
+Iter 400: Val loss 0.050, Val took 21.410s
+Iter 400: Train loss 0.077, Learning Rate 5.000e-05, It/sec 0.328, Tokens/sec 6.460, Trained Tokens 7607, Peak mem 9.713 GB
+Iter 400: Saved adapter weights to adapters/v3_labels_qlora/adapters.safetensors and adapters/v3_labels_qlora/0000400_adapters.safetensors.
+Iter 410: Train loss 0.074, Learning Rate 5.000e-05, It/sec 0.338, Tokens/sec 6.528, Trained Tokens 7800, Peak mem 9.713 GB
+Iter 420: Train loss 0.089, Learning Rate 5.000e-05, It/sec 0.325, Tokens/sec 6.472, Trained Tokens 7999, Peak mem 9.713 GB
+Iter 430: Train loss 0.073, Learning Rate 5.000e-05, It/sec 0.335, Tokens/sec 6.122, Trained Tokens 8182, Peak mem 9.713 GB
+Iter 440: Train loss 0.059, Learning Rate 5.000e-05, It/sec 0.328, Tokens/sec 6.469, Trained Tokens 8379, Peak mem 9.713 GB
+
+Calculating loss...:   0%|          | 0/16 [00:00<?, ?it/s]
+Calculating loss...:   6%|▋         | 1/16 [00:01<00:21,  1.40s/it]
+Calculating loss...:  12%|█▎        | 2/16 [00:02<00:19,  1.41s/it]
+Calculating loss...:  19%|█▉        | 3/16 [00:04<00:18,  1.41s/it]
+Calculating loss...:  25%|██▌       | 4/16 [00:05<00:16,  1.41s/it]
+Calculating loss...:  31%|███▏      | 5/16 [00:07<00:15,  1.41s/it]
+Calculating loss...:  38%|███▊      | 6/16 [00:08<00:14,  1.40s/it]
+Calculating loss...:  44%|████▍     | 7/16 [00:09<00:12,  1.40s/it]
+Calculating loss...:  50%|█████     | 8/16 [00:11<00:11,  1.40s/it]
+Calculating loss...:  56%|█████▋    | 9/16 [00:12<00:09,  1.40s/it]
+Calculating loss...:  62%|██████▎   | 10/16 [00:13<00:08,  1.36s/it]
+Calculating loss...:  69%|██████▉   | 11/16 [00:15<00:06,  1.37s/it]
+Calculating loss...:  75%|███████▌  | 12/16 [00:16<00:05,  1.38s/it]
+Calculating loss...:  81%|████████▏ | 13/16 [00:18<00:04,  1.39s/it]
+Calculating loss...:  88%|████████▊ | 14/16 [00:19<00:02,  1.39s/it]
+Calculating loss...:  94%|█████████▍| 15/16 [00:20<00:01,  1.39s/it]
+Calculating loss...: 100%|██████████| 16/16 [00:22<00:00,  1.40s/it]
+Calculating loss...: 100%|██████████| 16/16 [00:22<00:00,  1.39s/it]
+Iter 450: Val loss 0.120, Val took 22.317s
+Iter 450: Train loss 0.075, Learning Rate 5.000e-05, It/sec 0.325, Tokens/sec 6.339, Trained Tokens 8574, Peak mem 9.713 GB
+Iter 450: Saved adapter weights to adapters/v3_labels_qlora/adapters.safetensors and adapters/v3_labels_qlora/0000450_adapters.safetensors.
+Iter 460: Train loss 0.025, Learning Rate 5.000e-05, It/sec 0.331, Tokens/sec 6.232, Trained Tokens 8762, Peak mem 9.713 GB
+Iter 470: Train loss 0.047, Learning Rate 5.000e-05, It/sec 0.338, Tokens/sec 6.390, Trained Tokens 8951, Peak mem 9.713 GB
+Iter 480: Train loss 0.079, Learning Rate 5.000e-05, It/sec 0.328, Tokens/sec 6.169, Trained Tokens 9139, Peak mem 9.715 GB
+Iter 490: Train loss 0.044, Learning Rate 5.000e-05, It/sec 0.331, Tokens/sec 5.932, Trained Tokens 9318, Peak mem 9.715 GB
+
+Calculating loss...:   0%|          | 0/16 [00:00<?, ?it/s]
+Calculating loss...:   6%|▋         | 1/16 [00:01<00:19,  1.28s/it]
+Calculating loss...:  12%|█▎        | 2/16 [00:02<00:18,  1.35s/it]
+Calculating loss...:  19%|█▉        | 3/16 [00:04<00:17,  1.37s/it]
+Calculating loss...:  25%|██▌       | 4/16 [00:05<00:16,  1.38s/it]
+Calculating loss...:  31%|███▏      | 5/16 [00:06<00:14,  1.34s/it]
+Calculating loss...:  38%|███▊      | 6/16 [00:08<00:13,  1.32s/it]
+Calculating loss...:  44%|████▍     | 7/16 [00:09<00:11,  1.31s/it]
+Calculating loss...:  50%|█████     | 8/16 [00:10<00:10,  1.34s/it]
+Calculating loss...:  56%|█████▋    | 9/16 [00:12<00:09,  1.36s/it]
+Calculating loss...:  62%|██████▎   | 10/16 [00:13<00:07,  1.33s/it]
+Calculating loss...:  69%|██████▉   | 11/16 [00:14<00:06,  1.35s/it]
+Calculating loss...:  75%|███████▌  | 12/16 [00:16<00:05,  1.33s/it]
+Calculating loss...:  81%|████████▏ | 13/16 [00:17<00:03,  1.31s/it]
+Calculating loss...:  88%|████████▊ | 14/16 [00:18<00:02,  1.34s/it]
+Calculating loss...:  94%|█████████▍| 15/16 [00:20<00:01,  1.32s/it]
+Calculating loss...: 100%|██████████| 16/16 [00:21<00:00,  1.34s/it]
+Calculating loss...: 100%|██████████| 16/16 [00:21<00:00,  1.34s/it]
+Iter 500: Val loss 0.054, Val took 21.410s
+Iter 500: Train loss 0.055, Learning Rate 5.000e-05, It/sec 0.331, Tokens/sec 6.195, Trained Tokens 9505, Peak mem 9.715 GB
+Iter 500: Saved adapter weights to adapters/v3_labels_qlora/adapters.safetensors and adapters/v3_labels_qlora/0000500_adapters.safetensors.
+Iter 510: Train loss 0.047, Learning Rate 5.000e-05, It/sec 0.331, Tokens/sec 6.560, Trained Tokens 9703, Peak mem 9.715 GB
+Iter 520: Train loss 0.040, Learning Rate 5.000e-05, It/sec 0.335, Tokens/sec 6.389, Trained Tokens 9894, Peak mem 9.715 GB
+Iter 530: Train loss 0.046, Learning Rate 5.000e-05, It/sec 0.335, Tokens/sec 6.523, Trained Tokens 10089, Peak mem 9.715 GB
+Iter 540: Train loss 0.046, Learning Rate 5.000e-05, It/sec 0.335, Tokens/sec 6.528, Trained Tokens 10284, Peak mem 9.715 GB
+
+Calculating loss...:   0%|          | 0/16 [00:00<?, ?it/s]
+Calculating loss...:   6%|▋         | 1/16 [00:01<00:21,  1.40s/it]
+Calculating loss...:  12%|█▎        | 2/16 [00:02<00:19,  1.40s/it]
+Calculating loss...:  19%|█▉        | 3/16 [00:04<00:17,  1.34s/it]
+Calculating loss...:  25%|██▌       | 4/16 [00:05<00:16,  1.37s/it]
+Calculating loss...:  31%|███▏      | 5/16 [00:06<00:14,  1.33s/it]
+Calculating loss...:  38%|███▊      | 6/16 [00:08<00:13,  1.31s/it]
+Calculating loss...:  44%|████▍     | 7/16 [00:09<00:12,  1.34s/it]
+Calculating loss...:  50%|█████     | 8/16 [00:10<00:10,  1.36s/it]
+Calculating loss...:  56%|█████▋    | 9/16 [00:12<00:09,  1.37s/it]
+Calculating loss...:  62%|██████▎   | 10/16 [00:13<00:08,  1.34s/it]
+Calculating loss...:  69%|██████▉   | 11/16 [00:14<00:06,  1.32s/it]
+Calculating loss...:  75%|███████▌  | 12/16 [00:16<00:05,  1.35s/it]
+Calculating loss...:  81%|████████▏ | 13/16 [00:17<00:04,  1.36s/it]
+Calculating loss...:  88%|████████▊ | 14/16 [00:18<00:02,  1.37s/it]
+Calculating loss...:  94%|█████████▍| 15/16 [00:20<00:01,  1.34s/it]
+Calculating loss...: 100%|██████████| 16/16 [00:21<00:00,  1.32s/it]
+Calculating loss...: 100%|██████████| 16/16 [00:21<00:00,  1.35s/it]
+Iter 550: Val loss 0.066, Val took 21.535s
+Iter 550: Train loss 0.070, Learning Rate 5.000e-05, It/sec 0.331, Tokens/sec 6.063, Trained Tokens 10467, Peak mem 9.715 GB
+Iter 550: Saved adapter weights to adapters/v3_labels_qlora/adapters.safetensors and adapters/v3_labels_qlora/0000550_adapters.safetensors.
+Iter 560: Train loss 0.038, Learning Rate 5.000e-05, It/sec 0.331, Tokens/sec 6.398, Trained Tokens 10660, Peak mem 9.715 GB
+Iter 570: Train loss 0.083, Learning Rate 5.000e-05, It/sec 0.328, Tokens/sec 6.430, Trained Tokens 10856, Peak mem 9.715 GB
+Iter 580: Train loss 0.082, Learning Rate 5.000e-05, It/sec 0.319, Tokens/sec 6.248, Trained Tokens 11052, Peak mem 9.715 GB
+Iter 590: Train loss 0.028, Learning Rate 5.000e-05, It/sec 0.338, Tokens/sec 6.426, Trained Tokens 11242, Peak mem 9.715 GB
+
+Calculating loss...:   0%|          | 0/16 [00:00<?, ?it/s]
+Calculating loss...:   6%|▋         | 1/16 [00:01<00:19,  1.28s/it]
+Calculating loss...:  12%|█▎        | 2/16 [00:02<00:17,  1.28s/it]
+Calculating loss...:  19%|█▉        | 3/16 [00:03<00:17,  1.33s/it]
+Calculating loss...:  25%|██▌       | 4/16 [00:05<00:16,  1.36s/it]
+Calculating loss...:  31%|███▏      | 5/16 [00:06<00:14,  1.33s/it]
+Calculating loss...:  38%|███▊      | 6/16 [00:07<00:13,  1.31s/it]
+Calculating loss...:  44%|████▍     | 7/16 [00:09<00:12,  1.34s/it]
+Calculating loss...:  50%|█████     | 8/16 [00:10<00:10,  1.32s/it]
+Calculating loss...:  56%|█████▋    | 9/16 [00:11<00:09,  1.31s/it]
+Calculating loss...:  62%|██████▎   | 10/16 [00:13<00:08,  1.34s/it]
+Calculating loss...:  69%|██████▉   | 11/16 [00:14<00:06,  1.36s/it]
+Calculating loss...:  75%|███████▌  | 12/16 [00:16<00:05,  1.37s/it]
+Calculating loss...:  81%|████████▏ | 13/16 [00:17<00:04,  1.34s/it]
+Calculating loss...:  88%|████████▊ | 14/16 [00:18<00:02,  1.32s/it]
+Calculating loss...:  94%|█████████▍| 15/16 [00:20<00:01,  1.35s/it]
+Calculating loss...: 100%|██████████| 16/16 [00:21<00:00,  1.36s/it]
+Calculating loss...: 100%|██████████| 16/16 [00:21<00:00,  1.34s/it]
+Iter 600: Val loss 0.035, Val took 21.418s
+Iter 600: Train loss 0.023, Learning Rate 5.000e-05, It/sec 0.341, Tokens/sec 6.214, Trained Tokens 11424, Peak mem 9.715 GB
+Iter 600: Saved adapter weights to adapters/v3_labels_qlora/adapters.safetensors and adapters/v3_labels_qlora/0000600_adapters.safetensors.
+Iter 610: Train loss 0.031, Learning Rate 5.000e-05, It/sec 0.338, Tokens/sec 6.185, Trained Tokens 11607, Peak mem 9.715 GB
+Iter 620: Train loss 0.049, Learning Rate 5.000e-05, It/sec 0.331, Tokens/sec 6.590, Trained Tokens 11806, Peak mem 9.715 GB
+Iter 630: Train loss 0.103, Learning Rate 5.000e-05, It/sec 0.325, Tokens/sec 6.242, Trained Tokens 11998, Peak mem 9.715 GB
+Iter 640: Train loss 0.048, Learning Rate 5.000e-05, It/sec 0.334, Tokens/sec 6.317, Trained Tokens 12187, Peak mem 9.715 GB
+
+Calculating loss...:   0%|          | 0/16 [00:00<?, ?it/s]
+Calculating loss...:   6%|▋         | 1/16 [00:01<00:19,  1.28s/it]
+Calculating loss...:  12%|█▎        | 2/16 [00:02<00:18,  1.35s/it]
+Calculating loss...:  19%|█▉        | 3/16 [00:03<00:17,  1.32s/it]
+Calculating loss...:  25%|██▌       | 4/16 [00:05<00:15,  1.30s/it]
+Calculating loss...:  31%|███▏      | 5/16 [00:06<00:14,  1.34s/it]
+Calculating loss...:  38%|███▊      | 6/16 [00:07<00:13,  1.32s/it]
+Calculating loss...:  44%|████▍     | 7/16 [00:09<00:11,  1.30s/it]
+Calculating loss...:  50%|█████     | 8/16 [00:10<00:10,  1.33s/it]
+Calculating loss...:  56%|█████▋    | 9/16 [00:11<00:09,  1.35s/it]
+Calculating loss...:  62%|██████▎   | 10/16 [00:13<00:08,  1.37s/it]
+Calculating loss...:  69%|██████▉   | 11/16 [00:14<00:06,  1.34s/it]
+Calculating loss...:  75%|███████▌  | 12/16 [00:16<00:05,  1.36s/it]
+Calculating loss...:  81%|████████▏ | 13/16 [00:17<00:04,  1.37s/it]
+Calculating loss...:  88%|████████▊ | 14/16 [00:18<00:02,  1.34s/it]
+Calculating loss...:  94%|█████████▍| 15/16 [00:20<00:01,  1.36s/it]
+Calculating loss...: 100%|██████████| 16/16 [00:21<00:00,  1.37s/it]
+Calculating loss...: 100%|██████████| 16/16 [00:21<00:00,  1.35s/it]
+Iter 650: Val loss 0.044, Val took 21.526s
+Iter 650: Train loss 0.068, Learning Rate 5.000e-05, It/sec 0.334, Tokens/sec 6.076, Trained Tokens 12369, Peak mem 9.715 GB
+Iter 650: Saved adapter weights to adapters/v3_labels_qlora/adapters.safetensors and adapters/v3_labels_qlora/0000650_adapters.safetensors.
+Iter 660: Train loss 0.030, Learning Rate 5.000e-05, It/sec 0.325, Tokens/sec 6.463, Trained Tokens 12568, Peak mem 9.715 GB
+Iter 670: Train loss 0.057, Learning Rate 5.000e-05, It/sec 0.328, Tokens/sec 6.333, Trained Tokens 12761, Peak mem 9.715 GB
+Iter 680: Train loss 0.038, Learning Rate 5.000e-05, It/sec 0.335, Tokens/sec 6.393, Trained Tokens 12952, Peak mem 9.715 GB
+Iter 690: Train loss 0.064, Learning Rate 5.000e-05, It/sec 0.335, Tokens/sec 6.057, Trained Tokens 13133, Peak mem 9.715 GB
+
+Calculating loss...:   0%|          | 0/16 [00:00<?, ?it/s]
+Calculating loss...:   6%|▋         | 1/16 [00:01<00:21,  1.40s/it]
+Calculating loss...:  12%|█▎        | 2/16 [00:02<00:19,  1.40s/it]
+Calculating loss...:  19%|█▉        | 3/16 [00:04<00:17,  1.34s/it]
+Calculating loss...:  25%|██▌       | 4/16 [00:05<00:16,  1.37s/it]
+Calculating loss...:  31%|███▏      | 5/16 [00:06<00:14,  1.33s/it]
+Calculating loss...:  38%|███▊      | 6/16 [00:08<00:13,  1.31s/it]
+Calculating loss...:  44%|████▍     | 7/16 [00:09<00:11,  1.30s/it]
+Calculating loss...:  50%|█████     | 8/16 [00:10<00:10,  1.29s/it]
+Calculating loss...:  56%|█████▋    | 9/16 [00:11<00:09,  1.33s/it]
+Calculating loss...:  62%|██████▎   | 10/16 [00:13<00:08,  1.35s/it]
+Calculating loss...:  69%|██████▉   | 11/16 [00:14<00:06,  1.36s/it]
+Calculating loss...:  75%|███████▌  | 12/16 [00:16<00:05,  1.38s/it]
+Calculating loss...:  81%|████████▏ | 13/16 [00:17<00:04,  1.38s/it]
+Calculating loss...:  88%|████████▊ | 14/16 [00:18<00:02,  1.39s/it]
+Calculating loss...:  94%|█████████▍| 15/16 [00:20<00:01,  1.39s/it]
+Calculating loss...: 100%|██████████| 16/16 [00:21<00:00,  1.39s/it]
+Calculating loss...: 100%|██████████| 16/16 [00:21<00:00,  1.36s/it]
+Iter 700: Val loss 0.067, Val took 21.780s
+Iter 700: Train loss 0.042, Learning Rate 5.000e-05, It/sec 0.335, Tokens/sec 6.524, Trained Tokens 13328, Peak mem 9.715 GB
+Iter 700: Saved adapter weights to adapters/v3_labels_qlora/adapters.safetensors and adapters/v3_labels_qlora/0000700_adapters.safetensors.
+Saved final weights to adapters/v3_labels_qlora/adapters.safetensors.

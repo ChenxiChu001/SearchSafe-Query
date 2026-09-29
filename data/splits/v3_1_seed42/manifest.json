@@ -1,0 +1,127 @@
+{
+  "version": "v3.1-draft",
+  "source": "data/canonical/training_candidates_v3_1.jsonl",
+  "source_sha256": "ac27d9a06f31a9a40bc751a51104b3da6b5bc956cc8817855bc5e9726f76ae17",
+  "v3_source_sha256": "66fe22afb38d086af5865614e0cae2418c08412d61084e19114f594ed95ff12f",
+  "generated_sha256": "5973573d1a5d655264b84d74e26cf4f6f5b5d1699c6d07b1f7b94205e560dbd6",
+  "seed": 42,
+  "single_review_acceptance": 1000,
+  "proposed_revision_rows": 85,
+  "splits": {
+    "train": {
+      "rows": 1000,
+      "sha256": "5d2d438f368cc08e877fe9db6ecb36d18c608f224d906af5d5352e71787645d8",
+      "topic": {
+        "NONE": 150,
+        "SELF_HARM": 204,
+        "SCAM": 181,
+        "EATING_DISORDER_RISK": 200,
+        "VIOLENCE": 180,
+        "POLITICAL_SENSITIVE": 85
+      },
+      "intent": {
+        "GENERAL_INFO": 336,
+        "SUPPORT_SEEKING": 205,
+        "PREVENTION": 146,
+        "HARMFUL_INSTRUCTION": 124,
+        "AMBIGUOUS": 168,
+        "PRIVATE_INFO_REQUEST": 21
+      },
+      "locale": {
+        "SG": 422,
+        "CN": 578
+      },
+      "review_status": {
+        "approved": 672,
+        "draft": 328
+      },
+      "hard_redirect": 30
+    },
+    "dev": {
+      "rows": 100,
+      "sha256": "9f169f29054fb9045e0cd348d66a49a75bde25ff1578bc9c90968efdd0c4b098",
+      "topic": {
+        "EATING_DISORDER_RISK": 21,
+        "NONE": 17,
+        "POLITICAL_SENSITIVE": 5,
+        "SCAM": 20,
+        "SELF_HARM": 16,
+        "VIOLENCE": 21
+      },
+      "intent": {
+        "AMBIGUOUS": 12,
+        "GENERAL_INFO": 34,
+        "HARMFUL_INSTRUCTION": 20,
+        "PREVENTION": 9,
+        "SUPPORT_SEEKING": 22,
+        "PRIVATE_INFO_REQUEST": 3
+      },
+      "locale": {
+        "CN": 71,
+        "SG": 29
+      },
+      "review_status": {
+        "approved": 93,
+        "draft": 7
+      },
+      "hard_redirect": 0
+    },
+    "test": {
+      "rows": 100,
+      "sha256": "1daa36657d6c45f59faff834c84c3f839ec99908bb197a673f63bf870fa77ee0",
+      "topic": {
+        "SELF_HARM": 25,
+        "POLITICAL_SENSITIVE": 5,
+        "VIOLENCE": 15,
+        "EATING_DISORDER_RISK": 20,
+        "SCAM": 15,
+        "NONE": 20
+      },
+      "intent": {
+        "GENERAL_INFO": 35,
+        "PREVENTION": 18,
+        "SUPPORT_SEEKING": 22,
+        "AMBIGUOUS": 16,
+        "PRIVATE_INFO_REQUEST": 1,
+        "HARMFUL_INSTRUCTION": 8
+      },
+      "locale": {
+        "SG": 51,
+        "CN": 49
+      },
+      "review_status": {
+        "draft": 100
+      },
+      "hard_redirect": 12
+    },
+    "legacy_test": {
+      "rows": 200,
+      "sha256": "b8352e9f91b8b8d1a8508e818e998ee892a35168553fbb0cdee54699a6310e15",
+      "topic": {
+        "EATING_DISORDER_RISK": 39,
+        "NONE": 36,
+        "POLITICAL_SENSITIVE": 20,
+        "SCAM": 39,
+        "SELF_HARM": 30,
+        "VIOLENCE": 36
+      },
+      "intent": {
+        "GENERAL_INFO": 74,
+        "SUPPORT_SEEKING": 56,
+        "AMBIGUOUS": 19,
+        "HARMFUL_INSTRUCTION": 28,
+        "PRIVATE_INFO_REQUEST": 10,
+        "PREVENTION": 13
+      },
+      "locale": {
+        "CN": 139,
+        "SG": 61
+      },
+      "review_status": {
+        "draft": 50,
+        "approved": 150
+      },
+      "hard_redirect": 2
+    }
+  }
+}

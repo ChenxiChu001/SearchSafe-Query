@@ -1,0 +1,33 @@
+{
+  "task": "labels",
+  "split_dir": "data/splits/v3_1_seed42",
+  "prompt": "prompts/query_labels_v3_1.txt",
+  "prompt_sha256": "8f6c02b085a8ef70d7e1aad68606ba689846a162ea7d165ab029409ee7836677",
+  "format": "mlx-lm chat",
+  "mask_prompt": true,
+  "splits": {
+    "train": {
+      "rows": 1000,
+      "statuses": {
+        "approved": 672,
+        "draft": 328
+      },
+      "sha256": "5d2d438f368cc08e877fe9db6ecb36d18c608f224d906af5d5352e71787645d8"
+    },
+    "dev": {
+      "rows": 100,
+      "statuses": {
+        "approved": 93,
+        "draft": 7
+      },
+      "sha256": "9f169f29054fb9045e0cd348d66a49a75bde25ff1578bc9c90968efdd0c4b098"
+    },
+    "test": {
+      "rows": 100,
+      "statuses": {
+        "draft": 100
+      },
+      "sha256": "1daa36657d6c45f59faff834c84c3f839ec99908bb197a673f63bf870fa77ee0"
+    }
+  }
+}
